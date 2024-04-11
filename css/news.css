@@ -1,0 +1,313 @@
+@import url("./reset.css");
+
+body {
+  background-image: url("../img/背景圖2/sayagata-400px.png");
+  a {
+    text-decoration: none;
+    display: block;
+  }
+}
+
+/*---------------- top ----------------*/
+.top {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  height: 500px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../img/前端作業/商品1.jpg");
+}
+
+.top h1 {
+  font-size: 66px;
+  font-weight: bold;
+  color: white;
+  padding-top: 60px;
+  padding-left: 20px;
+}
+/*---------------- main ----------------*/
+
+.main-bottom {
+  width: 80%;
+
+  margin: 0 auto;
+}
+
+.main-bottom-h1 {
+  display: block;
+  text-align: center;
+  width: 450px;
+  border-bottom: 2px solid black;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+
+.main-bottom ul {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.bot-Li {
+  width: 24%;
+  height: 300px;
+  margin: 0 10px;
+  background-image: url("../img/背景圖/p0025_l.jpg");
+  padding: 10px;
+  position: relative;
+}
+
+.bot-Li a {
+  position: absolute;
+  height: 300px;
+  width: 100%;
+}
+
+.bottom-t1 {
+  height: 140px;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../img/前端作業/道具1.png");
+  background-color: rgb(0, 0, 0);
+}
+
+.bottom-t2 {
+  height: 140px;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background-image: url("../img/前端作業/商品3.jpg");
+}
+
+.bottom-t3 {
+  height: 140px;
+  background-size: cover;
+  background-image: url("../img/前端作業/戰鬥.png");
+}
+
+.bottom-t4 {
+  height: 140px;
+  background-size: cover;
+  background-image: url("../img/前端作業/天空圖.jpg");
+}
+
+.bottom-t5 {
+  height: 140px;
+  background-size: cover;
+  background-image: url("../img/前端作業/湯匙.jpg");
+}
+
+.bottom-t6 {
+  height: 140px;
+  background-size: cover;
+  background-image: url("../img/前端作業/地底.jpg");
+}
+
+.bottom-t7 {
+  height: 140px;
+  background-size: cover;
+  background-image: url("../img/前端作業/商品2.jpg");
+}
+
+.bottom-t8 {
+  height: 140px;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../img/前端作業/food1.png");
+  background-color: rgb(0, 0, 0);
+}
+
+.bottom-b {
+  background-color: white;
+  height: 160px;
+  padding-left: 10px;
+}
+
+.bottom-b p {
+  margin-bottom: 5px;
+}
+
+.pNews {
+  background-color: #b52222;
+  width: 70px;
+  text-align: center;
+  border-radius: 50px;
+  color: white;
+}
+
+.pNews2 {
+  background-color: #05973f;
+  width: 70px;
+  text-align: center;
+  border-radius: 50px;
+  color: white;
+}
+
+.main-bottom a {
+  display: block;
+  text-align: center;
+  font-size: 24px;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  margin: 0 auto;
+  /* background-color: black; */
+  margin-top: 20px;
+  color: white;
+}
+
+.bottom-a {
+  background-color: black;
+}
+
+.main-bottom .bottom-a:hover {
+  background-color: red;
+}
+
+/* ---底部nav--- */
+.bot-n {
+  margin-top: 20px;
+}
+
+.bot-n ul {
+  display: flex;
+  box-shadow: 1px 1px 3px;
+}
+
+.bot-n li {
+  height: 90px;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(126, 126, 126);
+  position: relative;
+}
+
+.nav {
+  flex-grow: 1;
+}
+
+.bot-n-label {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 34px;
+  left: 42px;
+  background-image: url("../icon/angles-right-solid-removebg-preview.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.nav a {
+  font-size: 20px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  height: 90px;
+  line-height: 90px;
+}
+
+.nav h3 {
+  color: black;
+  height: 78px;
+}
+
+.logo {
+  background-repeat: no-repeat;
+  width: 100px;
+  flex-grow: 1.1;
+}
+
+.logo a {
+  width: 100px;
+}
+
+.img-logo {
+  width: 100px;
+  height: 10%;
+  padding-left: 30px;
+}
+
+/* hover */
+.nav:hover h3 {
+  color: red;
+  font-weight: bold;
+  border-bottom: 1px solid red;
+}
+
+.bot-n li:hover .bot-n-label {
+  background-image: url("../icon/angles-rightred-solid-removebg-preview.png");
+}
+
+/*---------------- footer ----------------*/
+.footer {
+  height: 160px;
+
+  background-color: rgb(154, 154, 154);
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.footer p {
+  color: white;
+  line-height: 1.4;
+}
+
+.footer ul {
+  display: flex;
+}
+
+.f-logo {
+  background-image: url("../img/前端作業/new2-removebg-preview.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+}
+
+.f-icon {
+  display: block;
+  margin-left: 1300px;
+  height: 50px;
+  line-height: 50px;
+}
+
+.f-t {
+  border-bottom: 1px solid black;
+  padding-bottom: 4px;
+}
+
+.f-reference {
+  margin-top: 4px;
+}
+
+/*---------------- news1 ----------------*/
+.news1 {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.news1 h2 {
+  font-size: 44px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  border-bottom: 1px solid black;
+}
+
+.news1 p {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.news1-bg {
+  height: 160px;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../img/前端作業/道具1.png");
+}

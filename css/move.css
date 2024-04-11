@@ -1,0 +1,290 @@
+@import url("./reset.css");
+
+body {
+  background-image: url("../img/背景圖2/sayagata-400px.png");
+  a {
+    text-decoration: none;
+    display: block;
+    overflow: hidden;
+  }
+}
+/*---------------- top ----------------*/
+
+.top {
+  width: 86%;
+  margin: 40px auto;
+  background-color: #b52222;
+}
+
+.top h1 {
+  font-size: 48px;
+  color: white;
+  font-weight: bold;
+  height: 62px;
+  line-height: 62px;
+}
+
+/*---------------- main ----------------*/
+
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 86%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.main ul {
+}
+
+.main-li {
+  border: 1px solid black;
+  height: 400px;
+  margin-bottom: 30px;
+  background-color: white;
+}
+
+.main-li ul {
+  display: flex;
+}
+
+.main-li li {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 400px;
+  position: relative;
+}
+
+.label {
+  position: absolute;
+  position: relative;
+}
+
+.label h2 {
+  font-size: 48px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.label2 {
+  position: absolute;
+  left: -30px;
+}
+
+.label3 {
+  position: absolute;
+  left: 30px;
+}
+
+.main-li li h3 {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 40px 20px;
+  margin-bottom: 90px;
+  border-bottom: 2px dashed black;
+}
+
+.main-li li p {
+  font-size: 28px;
+  margin: 0 20px;
+}
+
+.left-li1 {
+  background-image: url("../img/前端作業/滑翔傘3.jpg");
+  width: 56%;
+}
+
+.left-li1 .label {
+  transform: rotate(-13deg);
+  top: 10px;
+  left: -20px;
+}
+
+.left-li1 h2 {
+  background-color: #05973f;
+  width: 460px;
+  text-align: center;
+}
+
+.right-li1 {
+  width: 44%;
+}
+
+.left-li2 {
+  width: 44%;
+}
+
+.right-li2 {
+  background-image: url("../img/前端作業/礦車.png");
+  width: 56%;
+}
+
+.right-li2 .label {
+  transform: rotate(13deg);
+  top: 50px;
+  right: -300px;
+}
+
+.right-li2 h2 {
+  background-color: #c16918;
+  width: 460px;
+  text-align: center;
+}
+
+.left-li3 {
+  background-image: url("../img/前端作業/踩盾滑行.png");
+  width: 56%;
+}
+
+.left-li3 .label {
+  transform: rotate(-13deg);
+  top: 10px;
+  left: -20px;
+}
+
+.left-li3 h2 {
+  background-color: #4b74c4;
+  width: 500px;
+  text-align: center;
+}
+
+.right-li3 {
+  width: 44%;
+}
+
+.left-li4 {
+  width: 44%;
+}
+
+.right-li4 {
+  background-image: url("../img/前端作業/沙海象滑行.png");
+  width: 56%;
+}
+
+.right-li4 .label {
+  transform: rotate(13deg);
+  top: 50px;
+  right: -300px;
+}
+
+.right-li4 h2 {
+  background-color: #b4ab58;
+  width: 460px;
+  text-align: center;
+}
+
+/* ---底部nav--- */
+.bot-n {
+  margin-top: 20px;
+}
+
+.bot-n ul {
+  display: flex;
+  box-shadow: 1px 1px 3px;
+}
+
+.bot-n li {
+  height: 90px;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(126, 126, 126);
+  position: relative;
+}
+
+.nav {
+  flex-grow: 1;
+}
+
+.bot-n-label {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 34px;
+  left: 42px;
+  background-image: url("../icon/angles-right-solid-removebg-preview.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.nav a {
+  font-size: 20px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  height: 90px;
+  line-height: 90px;
+}
+
+.nav h3 {
+  color: black;
+  height: 78px;
+}
+
+.logo {
+  background-repeat: no-repeat;
+  width: 100px;
+  flex-grow: 1.1;
+}
+
+.logo a {
+  width: 100px;
+}
+
+.img-logo {
+  width: 100px;
+  height: 10%;
+  padding-left: 30px;
+}
+
+/* hover */
+.nav:hover h3 {
+  color: red;
+  font-weight: bold;
+  border-bottom: 1px solid red;
+}
+
+.bot-n li:hover .bot-n-label {
+  background-image: url("../icon/angles-rightred-solid-removebg-preview.png");
+}
+
+/*---------------- footer ----------------*/
+.footer {
+  height: 160px;
+
+  background-color: rgb(154, 154, 154);
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.footer p {
+  color: white;
+  line-height: 1.4;
+}
+
+.footer ul {
+  display: flex;
+}
+
+.f-logo {
+  background-image: url("../img/前端作業/new2-removebg-preview.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+}
+
+.f-icon {
+  display: block;
+  margin-left: 1300px;
+  height: 50px;
+  line-height: 50px;
+}
+
+.f-t {
+  border-bottom: 1px solid black;
+  padding-bottom: 4px;
+}
+
+.f-reference {
+  margin-top: 4px;
+}

@@ -1,0 +1,381 @@
+@import url("./reset.css");
+
+body {
+  background-image: url("../img/前端作業/角色背景.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  a {
+    text-decoration: none;
+    display: block;
+  }
+}
+
+/*---------------- top ----------------*/
+.top {
+  height: 200px;
+
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+  margin: 0 auto;
+  position: relative;
+}
+
+.top h1 {
+  width: 420px;
+  height: 66px;
+  line-height: 66px;
+  font-size: 66px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  margin-left: 40px;
+  position: absolute;
+  top: 100px;
+  text-shadow: 1px 1px 5px black;
+}
+
+.top .top-text {
+  width: 460px;
+  right: 100px;
+  font-size: 28px;
+  top: 100px;
+}
+
+.top .top-text2 {
+  width: 460px;
+  right: 70px;
+  top: 140px;
+  font-size: 28px;
+}
+
+.top-bg {
+  width: 300px;
+  height: 400px;
+  background-image: url("../img/前端作業/能力圖7-removebg-preview.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: absolute;
+  right: 340px;
+}
+
+/*---------------- main ----------------*/
+.main {
+  overflow: hidden;
+}
+
+.main ul {
+  transform: rotate(-5deg);
+  margin-top: 140px;
+  height: 1800px;
+  position: relative;
+}
+
+.main li {
+  height: 380px;
+  border: 1px solid black;
+}
+
+.main h2 {
+  font-size: 92px;
+  color: white;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px black;
+  margin-top: 130px;
+}
+
+.label1 {
+  width: 85%;
+  position: absolute;
+  left: -10px;
+  transform: skew(-15deg);
+  background-image: url("../img/前端作業/究極手1.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.label1 h2 {
+  margin-left: 900px;
+}
+
+.label2 {
+  width: 85%;
+  position: absolute;
+  top: 440px;
+  left: 310px;
+  transform: skew(-15deg);
+  background-image: url("../img/前端作業/餘料2.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.label2 h2 {
+  margin-left: 80px;
+}
+
+.label3 {
+  width: 85%;
+  position: absolute;
+  top: 880px;
+  left: -70px;
+  transform: skew(-15deg);
+  background-image: url("../img/前端作業/時間1.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.label3 h2 {
+  margin-left: 800px;
+}
+
+.label4 {
+  width: 85%;
+  position: absolute;
+  top: 1320px;
+  left: 240px;
+  transform: skew(-15deg);
+  background-image: url("../img/前端作業/通天術3.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+.label4 h2 {
+  margin-left: 80px;
+}
+
+/* hover */
+
+.main li:hover h2 {
+  color: red;
+  font-size: 98px;
+}
+
+.main li:hover {
+  box-shadow: 2px 2px 10px black;
+}
+
+/* ---底部nav--- */
+.bot-n {
+  margin-top: 20px;
+}
+
+.bot-n ul {
+  display: flex;
+  box-shadow: 1px 1px 3px;
+}
+
+.bot-n li {
+  height: 90px;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(126, 126, 126);
+  position: relative;
+}
+
+.nav {
+  flex-grow: 1;
+}
+
+.bot-n-label {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 34px;
+  left: 42px;
+  background-image: url("../icon/angles-right-solid-removebg-preview.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.nav a {
+  font-size: 20px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  height: 90px;
+  line-height: 90px;
+}
+
+.nav h3 {
+  color: black;
+  height: 78px;
+}
+
+.logo {
+  background-repeat: no-repeat;
+  width: 100px;
+  flex-grow: 1.1;
+}
+
+.logo a {
+  width: 100px;
+}
+
+.img-logo {
+  width: 100px;
+  height: 10%;
+  padding-left: 30px;
+}
+
+/* hover */
+.nav:hover h3 {
+  color: red;
+  font-weight: bold;
+  border-bottom: 1px solid red;
+}
+
+.bot-n li:hover .bot-n-label {
+  background-image: url("../icon/angles-rightred-solid-removebg-preview.png");
+}
+
+/*---------------- footer ----------------*/
+.footer {
+  height: 160px;
+
+  background-color: rgb(154, 154, 154);
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.footer p {
+  color: white;
+  line-height: 1.4;
+}
+
+.footer ul {
+  display: flex;
+}
+
+.f-logo {
+  background-image: url("../img/前端作業/new2-removebg-preview.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+}
+
+.f-icon {
+  display: block;
+  margin-left: 1300px;
+  height: 50px;
+  line-height: 50px;
+}
+
+.f-t {
+  border-bottom: 1px solid black;
+  padding-bottom: 4px;
+}
+
+.f-reference {
+  margin-top: 4px;
+}
+
+/*---------------- 究極手介紹 ----------------*/
+.skill1-top {
+  width: 90%;
+  height: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #c9c9c9;
+}
+
+.skill1-top div {
+  height: 100%;
+  background-image: url("../img/前端作業/究極手介紹4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.skill1-top h1 {
+  font-size: 72px;
+  font-weight: bold;
+  color: white;
+  padding: 40px;
+}
+
+.skill1-top h2 {
+  font-size: 34px;
+  font-weight: bold;
+  color: white;
+  padding-top: 200px;
+  padding-left: 840px;
+}
+
+.skill1-main {
+  width: 90%;
+  margin: 20px auto;
+  display: flex;
+}
+
+.skill1-video {
+  margin-right: 40px;
+
+  width: 50%;
+  padding: 20px;
+  background-color: #c9c9c9;
+  height: 340px;
+}
+
+.skill1-video iframe {
+  width: 100%;
+}
+
+.skill1-right {
+  width: 50%;
+  padding: 20px;
+  background-color: #c9c9c9;
+  height: 340px;
+}
+
+.skill1-right-bg {
+  background-image: url("../img/前端作業/究極手介紹2.jpg");
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: bottom;
+}
+
+.skill1-video p {
+  font-size: 24px;
+}
+
+.skill1-bottom {
+  display: flex;
+  width: 90%;
+  margin: 20px auto;
+}
+
+.skill1-bottom p {
+  width: 50%;
+  font-size: 24px;
+}
+
+.skill1-bottom-p {
+  margin: 0 20px;
+  margin-right: 70px;
+}
+
+.skill-nav {
+  display: flex;
+  width: 70%;
+  margin: 200px auto;
+  margin-bottom: 40px;
+}
+
+.skill-nav img {
+  object-fit: cover;
+  width: 150px;
+  height: 150px;
+}
+
+.skill-nav a {
+  margin-right: 140px;
+}
+
+/* hover */
+.skill-nav a :hover {
+  outline: 3px solid red;
+}

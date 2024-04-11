@@ -1,0 +1,669 @@
+@import url("./reset.css");
+
+body {
+  background-image: url("../img/背景圖2/sayagata-400px.png");
+  a {
+    text-decoration: none;
+    display: block;
+  }
+}
+
+/*---------------- main ----------------*/
+.main {
+}
+
+.main ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.main li {
+  width: 100%;
+  height: 660px;
+  position: relative;
+}
+
+.main li h2 {
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  top: 120px;
+  left: 120px;
+  width: 60px;
+  text-align: center;
+  line-height: 1.05;
+}
+
+.main li h1 {
+  font-size: 66px;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  top: 200px;
+  left: 340px;
+  text-align: center;
+  line-height: 1.05;
+  font-style: italic;
+}
+
+.main li p {
+  font-size: 28px;
+  color: white;
+  position: absolute;
+  top: 400px;
+  left: 340px;
+  line-height: 1.2;
+}
+
+.block-1 {
+  background-image: url("../img/前端作業/海拉魯圖.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.block-1 h2 {
+  background-color: #05973f;
+}
+
+.block-1 .block-1-h2 {
+  left: 200px;
+  top: 140px;
+}
+
+.block-2 {
+  background-image: url("../img/前端作業/阿卡萊圖.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.block-2 h2 {
+  background-color: #b52222;
+}
+
+.block-2 .block-2-h2 {
+  left: 200px;
+  top: 140px;
+}
+
+.block-3 {
+  background-image: url("../img/前端作業/拉攝爾圖.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.block-3 h2 {
+  background-color: #359ab0;
+}
+
+.block-3 .block-3-h2 {
+  left: 200px;
+  top: 140px;
+}
+
+.block-4 {
+  background-image: url("../img/前端作業/格魯德圖.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.block-4 h2 {
+  background-color: #b4ab58;
+}
+
+.block-4 .block-4-h2 {
+  left: 200px;
+  top: 140px;
+}
+
+.block-5 {
+  background-image: url("../img/前端作業/海布拉圖.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.block-5 h2 {
+  background-color: #4b74c4;
+}
+
+.block-5 .block-5-h2 {
+  left: 200px;
+  top: 140px;
+}
+
+.block-6 {
+  background-image: url("../img/前端作業/奧爾汀圖.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.block-6 h2 {
+  background-color: #c16918;
+}
+
+.block-6 .block-6-h2 {
+  left: 200px;
+  top: 140px;
+}
+/* ---底部nav--- */
+.bot-n {
+  margin-top: 20px;
+}
+
+.bot-n ul {
+  display: flex;
+  box-shadow: 1px 1px 3px;
+}
+
+.bot-n li {
+  height: 90px;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(126, 126, 126);
+  position: relative;
+}
+
+.nav {
+  flex-grow: 1;
+}
+
+.bot-n-label {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 34px;
+  left: 42px;
+  background-image: url("../icon/angles-right-solid-removebg-preview.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.nav a {
+  font-size: 20px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  height: 90px;
+  line-height: 90px;
+}
+
+.nav h3 {
+  color: black;
+  height: 78px;
+}
+
+.logo {
+  background-repeat: no-repeat;
+  width: 100px;
+  flex-grow: 1.1;
+}
+
+.logo a {
+  width: 100px;
+}
+
+.img-logo {
+  width: 100px;
+  height: 10%;
+  padding-left: 30px;
+}
+
+/* hover */
+.nav:hover h3 {
+  color: red;
+  font-weight: bold;
+  border-bottom: 1px solid red;
+}
+
+.bot-n li:hover .bot-n-label {
+  background-image: url("../icon/angles-rightred-solid-removebg-preview.png");
+}
+
+/*---------------- footer ----------------*/
+.footer {
+  height: 160px;
+
+  background-color: rgb(154, 154, 154);
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.footer p {
+  color: white;
+  line-height: 1.4;
+}
+
+.footer ul {
+  display: flex;
+}
+
+.f-logo {
+  background-image: url("../img/前端作業/new2-removebg-preview.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+}
+
+.f-icon {
+  display: block;
+  margin-left: 1300px;
+  height: 50px;
+  line-height: 50px;
+}
+
+.f-t {
+  border-bottom: 1px solid black;
+  padding-bottom: 4px;
+}
+
+.f-reference {
+  margin-top: 4px;
+}
+
+/*---------------- 阿卡萊地區介紹 ----------------*/
+.top01 {
+  height: 660px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 14px;
+  border: 5px solid black;
+}
+
+.top01-bg {
+  background-image: url("../img/前端作業/阿卡萊圖.jpg");
+  height: 660px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.top01-title {
+  position: absolute;
+  right: 60px;
+  top: 60px;
+  border-top: 10px solid white;
+  border-bottom: 10px solid white;
+  height: 110px;
+}
+
+.top01 p {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.top01 h3 {
+  color: white;
+  font-size: 66px;
+  font-weight: bold;
+  position: absolute;
+  right: 160px;
+  top: 112px;
+}
+
+.top01 .top01-h3 {
+  font-size: 96px;
+  position: absolute;
+  right: 64px;
+  top: 88px;
+}
+
+.top01 h2 {
+  position: absolute;
+  bottom: 150px;
+  left: 120px;
+  font-size: 26px;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 14px;
+}
+
+.top01 h1 {
+  position: absolute;
+  bottom: 20px;
+  left: 100px;
+  font-size: 120px;
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.main01 {
+  width: 90%;
+  margin: 0 auto;
+  padding: 14px;
+  border: 5px solid black;
+  margin-top: 14px;
+  background-color: white;
+}
+
+.main01-top {
+  position: relative;
+}
+
+.main01 h2 {
+  font-size: 60px;
+  color: white;
+  width: 62px;
+  background-color: #b52222;
+  text-align: center;
+}
+
+.main01-top-label {
+  position: absolute;
+  top: -20px;
+  left: 30px;
+}
+
+/* .main01-top-label h2 {
+  font-size: 60px;
+  color: white;
+  width: 62px;
+  background-color: #b52222;
+  text-align: center;
+} */
+
+.main01-top ul {
+  display: flex;
+  margin: 0 20px;
+  margin-top: 40px;
+}
+
+.main01-top li {
+  height: 480px;
+}
+
+.main01 h3 {
+  font-size: 44px;
+  font-weight: bold;
+}
+
+.main01 p {
+  font-size: 24px;
+}
+
+.main01-top h3 {
+  margin-top: 80px;
+  border-bottom: 4px solid #b52222;
+}
+
+.main01-top p {
+  margin-top: 40px;
+}
+
+.main01-top-bg1 {
+  width: 66%;
+  background-image: url("../img/前端作業/阿卡萊-1-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main01-top-text1 {
+  width: 34%;
+}
+
+.main01-top-text1 h3 {
+  margin-left: 40px;
+}
+
+.main01-top-text1 p {
+  margin-left: 40px;
+}
+
+.main01-top-text2 {
+  width: 34%;
+}
+
+.main01-top-text2 h3 {
+  margin-right: 40px;
+}
+
+.main01-top-text2 p {
+  margin-right: 40px;
+}
+
+.main01-top-bg2 {
+  width: 66%;
+  background-image: url("../img/前端作業/阿卡萊-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main01-middle {
+  margin-top: 40px;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+}
+
+.main01-middle-1 {
+  position: relative;
+}
+
+.main01-middle-label {
+  position: absolute;
+  top: -20px;
+  right: 40px;
+}
+
+.main01-middle-label h2 {
+  font-size: 40px;
+  width: 48px;
+}
+
+.main01-middle ul {
+  display: flex;
+  margin: 0 20px;
+  margin-top: 40px;
+}
+
+/* .main01-middle li {
+  height: 480px;
+} */
+
+.main01-middle-text1 {
+  width: 34%;
+  position: relative;
+}
+
+.main01-middle-bg1 {
+  width: 66%;
+  background-image: url("../img/前端作業/一始村.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* .main01-middle-h3 {
+  position: absolute;
+  top: 0;
+  right: 10px;
+} */
+
+.main01-middle h3 {
+  border-bottom: 4px solid #b52222;
+  margin-right: 40px;
+}
+
+.main01-middle p {
+  margin-top: 80px;
+  margin-right: 40px;
+  line-height: 1.4;
+}
+
+.main01-middle-2 {
+  display: flex;
+}
+
+.main01-middle-ul2 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main01-middle-ul3 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main01-middle-2 li {
+}
+
+.main01-middle-bg2 {
+  width: 100%;
+  height: 300px;
+  background-image: url("../img/前端作業/一始村2.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.main01-middle-2 p {
+  margin: 0;
+}
+
+.main01-middle-bg3 {
+  width: 100%;
+  height: 300px;
+  background-image: url("../img/前端作業/一始村3.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.main01-bottom {
+  margin-top: 40px;
+}
+
+.main01-bottom-title {
+}
+
+.main01-bottom-title {
+  border-bottom: 2px solid black;
+  margin-bottom: 20px;
+}
+
+.main01-bottom-title h3 {
+  width: 80%;
+  margin: 0 auto;
+  height: 56px;
+  background-color: red;
+  color: white;
+  text-align: center;
+  line-height: 56px;
+  margin-bottom: 20px;
+}
+
+.main01-bottom-title p {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.main01-bottom-2 {
+  width: 100%;
+  display: flex;
+}
+
+.main01-bottom-video1 {
+  width: 56%;
+  margin-left: 40px;
+}
+
+.main01-bottom-video {
+  width: 100%;
+}
+
+.main01-bottom-text {
+  width: 44%;
+  margin-left: 40px;
+}
+
+.main01-bottom-text ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom-text-li {
+  position: relative;
+  height: 66px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid black;
+}
+
+.bottom-text-li .bottom-text-p1 {
+  position: absolute;
+  left: 0;
+
+  font-size: 42px;
+  width: 80px;
+  text-align: center;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  height: 62px;
+  line-height: 62px;
+}
+
+.bottom-text-li .bottom-text-p2 {
+  position: absolute;
+  top: 10px;
+  right: 260px;
+  font-size: 46px;
+  font-weight: bold;
+}
+
+.main01-bottom-text .bottom-text-p3 {
+  background-color: black;
+  width: 120px;
+  font-size: 34px;
+  color: white;
+  height: 46px;
+  line-height: 46px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.button {
+  height: 60px;
+  width: 92%;
+  background-color: white;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: flex;
+}
+
+.but-left {
+  height: 40px;
+  width: 40px;
+  background-repeat: no-repeat;
+  margin-top: 10px;
+}
+
+.but-left-a p {
+  color: black;
+  font-size: 24px;
+  width: 120px;
+  margin-left: 596px;
+  margin-top: 20px;
+}
+
+.but-m {
+  height: 60px;
+  width: 4px;
+  background-color: black;
+}
+
+.but-right-a p {
+  color: black;
+  font-size: 24px;
+  width: 120px;
+  margin-top: 20px;
+}
+
+.but-right {
+  height: 40px;
+  width: 40px;
+  background-repeat: no-repeat;
+  margin-top: 10px;
+  margin-left: 480px;
+}
