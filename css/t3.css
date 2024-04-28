@@ -1,0 +1,532 @@
+@import url("./reset.css");
+
+body {
+  background-image: url("../img/背景圖2/sayagata-400px.png");
+  a {
+    text-decoration: none;
+    display: block;
+  }
+}
+
+/*---------------- top ----------------*/
+.top {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  height: 40vw;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../img/前端作業/商品1.jpg");
+}
+
+.top h1 {
+  font-size: 66px;
+  font-weight: bold;
+  color: white;
+  padding-top: 4.8vw;
+  padding-left: 20px;
+}
+/*---------------- main ----------------*/
+
+.main-bottom {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* .bot-div a {
+  width: 94px;
+} */
+
+.bot-label {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 94px;
+  height: 31px;
+  line-height: 33px;
+  text-align: center;
+  color: white;
+  margin-left: 2vw;
+  margin-top: 1.2vw;
+  border: 0;
+}
+
+.botb {
+  background-image: url("../img/標籤/標籤2.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 94px;
+  height: 31px;
+  line-height: 33px;
+  text-align: center;
+  color: white;
+  margin-left: 2vw;
+  margin-top: 1.2vw;
+  border: 0;
+}
+
+.bot-h2 {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 120px;
+  height: 66px;
+  line-height: 66px;
+  text-align: center;
+  color: black;
+  background-image: url("../img/標籤/標籤5.png");
+}
+
+.l1 {
+  background-image: url("../img/標籤/標籤4.png");
+  margin-left: 4vw;
+}
+
+.l2 {
+  background-image: url("../img/標籤/標籤2.png");
+}
+
+.l3 {
+  background-image: url("../img/標籤/標籤3.png");
+}
+
+.l4 {
+  background-image: url("../img/標籤/標籤.png");
+}
+
+.bot-labNum {
+  font-size: 24px;
+  height: 28px;
+  line-height: 28px;
+  margin-left: 1vw;
+  margin-top: 1.3vw;
+}
+
+/* 
+.bot-div li:nth-child(1) {
+  width: 66%;
+}
+
+.bot-div li:nth-child(2) {
+  width: 8%;
+}
+
+.bot-div li:nth-child(3) {
+  width: 8%;
+}
+
+.bot-div li:nth-child(4) {
+  width: 8%;
+}
+.bot-div li:nth-child(5) {
+  width: 8%;
+} */
+
+/* .bot-div {
+  margin-bottom: 10px;
+} */
+
+.bot-div h2 {
+  font-size: 34px;
+}
+
+.bot-div h3 {
+  font-size: 22px;
+  text-align: center;
+}
+
+.main-bottom .bot-div ul {
+  margin-bottom: 20px;
+}
+
+/* .main-bottom-h1 {
+  display: block;
+  text-align: center;
+  width: 450px;
+  border-bottom: 2px solid black;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  font-size: 40px;
+} */
+
+.main-bottom ul {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.bot-Li {
+  width: 24%;
+  height: 20.6vw;
+  margin: 0 10px;
+  background-image: url("../img/背景圖/p0025_l.jpg");
+  padding: 10px;
+  position: relative;
+}
+
+.main-bottom ul li:nth-child(1) {
+  margin-left: 0;
+}
+
+.main-bottom ul li:nth-child(4) {
+  margin-right: 0;
+}
+
+.bot-Li a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.bottom {
+  height: 9.2vw;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* .bottom.t1 {
+  background-image: url("../img/前端作業/道具1.png");
+  background-color: rgb(0, 0, 0);
+} */
+
+.bottom.t1 {
+  background-image: url("../img/前端作業/林克天空.jpg");
+  background-size: 100%;
+}
+
+.bottom.t2 {
+  background-size: 100%;
+  background-image: url("../img/前端作業/商品9.jpg");
+}
+
+.bottom.t3 {
+  background-size: cover;
+  background-image: url("../img/前端作業/戰鬥.png");
+}
+
+.bottom.t4 {
+  background-size: cover;
+  background-image: url("../img/前端作業/天空圖.jpg");
+}
+
+.bottom.t5 {
+  background-size: cover;
+  background-image: url("../img/前端作業/湯匙.jpg");
+}
+
+.bottom.t6 {
+  background-size: cover;
+  background-image: url("../img/前端作業/地底.jpg");
+}
+
+.bottom.t7 {
+  background-size: cover;
+  background-image: url("../img/前端作業/商品2.jpg");
+}
+
+.bottom.t8 {
+  background-image: url("../img/前端作業/food1.png");
+  background-color: rgb(0, 0, 0);
+}
+
+.bottom-b p:nth-child(1) {
+  margin-top: 4px;
+}
+
+.bottom-b {
+  background-color: white;
+  height: 10.6vw;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.bottom-b p {
+  margin-bottom: 8px;
+}
+
+.pNews {
+  background-image: url("../img/標籤/標籤2.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 70px;
+  height: 23px;
+  line-height: 23px;
+  text-align: center;
+  border-radius: 50px;
+  color: white;
+}
+
+.pNews2 {
+  background-image: url("../img/標籤/標籤3.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 70px;
+  height: 23px;
+  line-height: 23px;
+  text-align: center;
+  border-radius: 50px;
+  color: white;
+}
+
+.pNews3 {
+  background-image: url("../img/標籤/標籤.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 70px;
+  height: 23px;
+  line-height: 23px;
+  text-align: center;
+  border-radius: 50px;
+  color: white;
+}
+
+.bottom-a {
+  display: block;
+  text-align: center;
+  font-size: 24px;
+  width: 280px;
+  height: 60px;
+  line-height: 60px;
+  margin: 0 auto;
+  margin-top: 20px;
+  color: white;
+  background-image: url("../img/標籤/button.png");
+  background-size: 100% 100%;
+  opacity: 0.8;
+}
+
+.main-bottom .bottom-a:hover {
+  opacity: 1;
+}
+
+.bot-Li:hover .bottom {
+  background-size: 120%;
+}
+
+/* ---底部nav--- */
+.nav-b {
+  height: 100px;
+}
+.bot-n {
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+}
+
+.bot-n ul {
+  display: flex;
+  box-shadow: 1px 1px 3px;
+}
+
+.bot-n ul li:nth-child(6) a {
+  border-bottom: 3px solid red;
+}
+
+.bot-n ul li:nth-child(6) div {
+  background-image: url("../icon/angles-rightred-solid-removebg-preview.png");
+}
+
+.bot-n ul li:nth-child(6) a h3 {
+  color: red;
+}
+
+.bot-n li {
+  height: 60px;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(126, 126, 126);
+  position: relative;
+}
+
+.nav {
+  flex-grow: 1;
+}
+
+.bot-n-label {
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  top: 22px;
+  left: 42px;
+  background-image: url("../icon/angles-right-solid-removebg-preview.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.nav a {
+  font-size: 18px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  height: 59px;
+  line-height: 59px;
+}
+
+.nav h3 {
+  color: black;
+  height: 59px;
+}
+
+.logo {
+  /* background-image: url("../img/前端作業/new2-removebg-preview.png"); */
+  background-repeat: no-repeat;
+  width: 100px;
+  flex-grow: 1.1;
+}
+
+.logo a {
+  width: 100px;
+}
+
+.img-logo {
+  width: 90px;
+  height: 59px;
+  padding-left: 30px;
+}
+
+/* hover */
+.nav:hover h3 {
+  color: red;
+  font-weight: bold;
+}
+
+.bot-n li:hover .bot-n-label {
+  background-image: url("../icon/angles-rightred-solid-removebg-preview.png");
+}
+
+/*---------------- footer ----------------*/
+.footer {
+  height: 160px;
+
+  background-color: rgb(154, 154, 154);
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.footer p {
+  color: white;
+  line-height: 1.4;
+}
+
+.footer ul {
+  display: flex;
+}
+
+.f-logo {
+  background-image: url("../img/前端作業/new2-removebg-preview.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+}
+
+.f-icon {
+  display: block;
+  margin-left: 1300px;
+  height: 50px;
+  line-height: 50px;
+}
+
+.f-t {
+  border-bottom: 1px solid black;
+  padding-bottom: 4px;
+}
+
+.f-reference {
+  margin-top: 4px;
+}
+
+/*---------------- news1 ----------------*/
+.news1 {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.news1 h2 {
+  font-size: 44px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  border-bottom: 1px solid black;
+}
+
+.news1 p {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.news1-bg {
+  height: 160px;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../img/前端作業/道具1.png");
+}
+
+/*---------------- news0 ----------------*/
+.news0 {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.news0 ul {
+  display: flex;
+}
+
+.news-left {
+  width: 50%;
+}
+
+.news0 h2 {
+  font-size: 44px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  border-bottom: 1px solid black;
+}
+
+.news0 p {
+  /* font-size: 28px; */
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.news-video0 {
+  margin-top: 40px;
+  width: 100%;
+}
+
+.news-v0 {
+  width: 100%;
+}
+
+.news-right p {
+  margin-top: 40px;
+  margin-left: 24px;
+}
+
+/*---------------- news2 ----------------*/
+.news0 .newsp p {
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+.news-bg {
+  width: 50%;
+  height: 20vw;
+  margin-top: 30px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.nl2 {
+  background-image: url("../img/前端作業/商品9.jpg");
+}
+
+.nr2 {
+  margin-left: 24px;
+  background-image: url("../img/前端作業/商品10.jpg");
+}

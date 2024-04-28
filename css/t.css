@@ -1,0 +1,719 @@
+@import url("./reset.css");
+
+body {
+  background-image: url("../img/背景圖2/sayagata-400px.png");
+  a {
+    text-decoration: none;
+    display: block;
+  }
+}
+
+/* -----text設定----- */
+
+.text {
+  position: absolute;
+  right: 0;
+  top: 12.5vw;
+  z-index: 5;
+  width: calc(100% - 62vw);
+}
+
+.texts {
+  position: absolute;
+  top: 20.5vw;
+  z-index: 5;
+  width: calc(100% - 82vw);
+}
+
+.text.explore {
+  left: 0;
+}
+
+.texts.skill0 {
+  left: 0;
+  top: 19.8vw;
+  width: 100%;
+  height: 3vw;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.texts.skill1 {
+  left: 5vw;
+}
+
+.texts.skill2 {
+  left: 30vw;
+}
+
+.texts.skill3 {
+  right: 33vw;
+}
+
+.texts.skill4 {
+  right: 5vw;
+}
+
+.text h1 {
+  font-size: 46px;
+  text-align: center;
+  color: white;
+}
+
+.text .h1-2 {
+  font-size: 34px;
+  text-align: center;
+  color: white;
+}
+
+.texts h1 {
+  font-size: 28px;
+  text-align: center;
+  color: white;
+}
+
+.border-b {
+  border-bottom: 2px solid white;
+}
+
+.arrow-right {
+  position: absolute;
+  right: 11vw;
+  top: 15.9vw;
+  z-index: 5;
+  width: 1.6vw;
+  height: 1.6vw;
+  z-index: 1;
+}
+
+/* .arrow-right img {
+  width: 100%;
+  height: 100%;
+} */
+
+.arrow-bg {
+  background-image: url("../icon/angles-rightred-solid-removebg-preview.png");
+  background-size: 100%;
+  height: 100%;
+}
+
+.arrow-right.explore {
+  left: 20vw;
+}
+
+/* -----背景圖設定----- */
+
+.bg {
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: 100%;
+}
+
+.bg.story {
+  background-image: url("../img/背景圖/選單背景圖-5.png");
+}
+
+.bg.explore {
+  background-image: url("../img/背景圖/選單背景圖-2-1.png");
+}
+
+.bg.move {
+  background-image: url("../img/背景圖/選單背景圖-3.png");
+}
+
+.bg.skill {
+  background-image: url("../img/背景圖/選單背景圖-4-0.png");
+}
+
+.content {
+  height: 32.25vw;
+  width: calc(100% - 4vw);
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.content.story {
+  margin-left: auto;
+  margin-bottom: 20px;
+  -webkit-clip-path: polygon(
+    100% 0%,
+    100% 100%,
+    46% 100%,
+    43% 94%,
+    20% 94%,
+    0% 0%,
+    29% 0%
+  );
+}
+
+.content.explore {
+  margin-right: auto;
+  -webkit-clip-path: polygon(
+    47% 0%,
+    50% 7%,
+    100% 7%,
+    91% 77%,
+    65% 77%,
+    60% 100%,
+    0% 100%,
+    0% 0%
+  );
+}
+
+.content.move {
+  margin-left: auto;
+  margin-bottom: 30px;
+  /* top: 40px; */
+  top: -4vw;
+  -webkit-clip-path: polygon(
+    100% 0%,
+    100% 100%,
+    52% 100%,
+    19% 100%,
+    0% 24%,
+    56% 24%,
+    61% 0
+  );
+}
+
+.content.skill {
+  height: 22.9vw;
+  width: 100%;
+}
+
+.content.skill ul {
+  display: flex;
+}
+
+.section {
+  position: relative;
+}
+
+/* -----上方標籤設定----- */
+
+.label {
+  height: 5.75vw;
+  width: calc(100% - 70vw);
+  position: absolute;
+  right: 0;
+  z-index: 2;
+}
+
+.label.story {
+  top: -2.5vw;
+}
+
+.label.explore {
+  top: -2.25vw;
+  left: 0;
+}
+
+.label.move {
+  top: -6.1vw;
+}
+
+.label.skill {
+  right: 0;
+  left: 0;
+  margin: auto;
+  top: -2.29vw;
+  height: 7.55vw;
+  width: calc(100% - 60vw);
+}
+
+.lbg.story {
+  background-image: url("../img/背景圖/label2.png");
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: 100%;
+}
+
+.lbg.explore {
+  background-image: url("../img/背景圖/label2-2.png");
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: 100%;
+}
+
+.lbg.move {
+  background-image: url("../img/背景圖/label3-2.png");
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: 100%;
+}
+
+.lbg.skill {
+  background-image: url("../img/背景圖/label-b.png");
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: 100%;
+}
+
+/* hover */
+
+.content.story:hover .bg.story {
+  background-image: url("../img/背景圖/hover-1-2.png");
+  transition: 0.8s;
+}
+
+.content.story:hover .text.story h1 {
+  text-shadow: 0px 0px 15px white;
+}
+
+.content.story:hover .border-b {
+  border-bottom: 2px solid red;
+}
+
+.content.explore:hover .bg.explore {
+  background-image: url("../img/背景圖/hover-2.png");
+  transition: 0.8s;
+}
+
+.content.explore:hover .text.explore h1 {
+  text-shadow: 0px 0px 15px white;
+}
+
+.content.explore:hover .border-b {
+  border-bottom: 2px solid red;
+}
+
+.content.move:hover .bg.move {
+  background-image: url("../img/背景圖/hover-3.png");
+  transition: 0.8s;
+}
+
+.content.move:hover .text.move h1 {
+  text-shadow: 0px 0px 15px white;
+}
+
+.content.move:hover .border-b {
+  border-bottom: 2px solid red;
+}
+
+.content.skill:hover .texts h1 {
+  text-shadow: 0px 0px 15px white;
+}
+
+/* 測試 */
+
+.te ul {
+  position: relative;
+}
+
+.te li {
+  height: 20vw;
+  width: 50vw;
+  position: absolute;
+}
+
+.bbg {
+  background-image: url("../img/前端作業/究極手3.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 50vw;
+  height: 20vw;
+}
+
+.te li:hover {
+  filter: drop-shadow(25px 25px black);
+
+  top: -50px;
+  left: -50px;
+  border: 5px solid blue;
+  padding: 10px;
+}
+
+.te li:hover {
+  /* width: 52vw;
+  height: 21vw; */
+  border: 5px solid blue;
+  padding: 10px;
+}
+
+/*---------------- main ----------------*/
+.main {
+  overflow: hidden;
+}
+
+.main ul {
+  transform: rotate(-5deg);
+  margin-top: 140px;
+  height: 1800px;
+  position: relative;
+}
+
+.labelBg.b1 a {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.main h2 {
+  font-size: 92px;
+  color: white;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px black;
+  padding-top: 130px;
+}
+
+.label {
+  height: 25vw;
+  width: 85vw;
+  border: 1px solid black;
+  position: absolute;
+  transform: skew(-15deg);
+}
+
+.labelBg {
+  height: 25vw;
+  width: 85vw;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.label.l1 {
+  left: -10px;
+}
+
+.labelBg.b1 {
+  background-image: url("../img/前端作業/究極手1.jpg");
+  background-position: bottom;
+}
+
+.labelBg.b1 h2 {
+  padding-left: 900px;
+}
+
+.label.l2 {
+  top: 440px;
+  left: 310px;
+}
+
+.labelBg.b2 {
+  background-image: url("../img/前端作業/餘料2.jpg");
+  background-position: center center;
+}
+
+.labelBg.b2 h2 {
+  padding-left: 80px;
+}
+
+.label.l3 {
+  top: 880px;
+  left: -70px;
+}
+
+.labelBg.b3 {
+  background-image: url("../img/前端作業/時間1.jpg");
+  background-position: center center;
+}
+
+.labelBg.b3 h2 {
+  padding-left: 800px;
+}
+
+.label.l4 {
+  top: 1320px;
+  left: 240px;
+}
+
+.labelBg.b4 {
+  background-image: url("../img/前端作業/通天術3.jpg");
+  background-position: center center;
+}
+
+.labelBg.b4 h2 {
+  padding-left: 80px;
+}
+
+/* hover */
+
+.main li:hover h2 {
+  text-shadow: 0px 0px 15px white;
+  font-size: 98px;
+}
+
+.label.l1:hover {
+  filter: drop-shadow(27px 27px black);
+  top: -40px;
+  left: -50px;
+  border: 2.5px solid blue;
+  padding: 10px;
+}
+
+.label.l2:hover {
+  filter: drop-shadow(27px 27px black);
+  top: 400px;
+  left: 270px;
+
+  border: 2.5px solid blue;
+  padding: 10px;
+}
+
+.label.l3:hover {
+  filter: drop-shadow(27px 27px black);
+  top: 840px;
+  left: -110px;
+
+  border: 2.5px solid blue;
+  padding: 10px;
+}
+
+.label.l4:hover {
+  filter: drop-shadow(27px 27px black);
+  top: 1280px;
+  left: 200px;
+  border: 2.5px solid blue;
+  padding: 10px;
+}
+
+.main01-bottom-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.labelBg.b1 {
+  /* overflow: hidden; */
+}
+
+section {
+  position: relative;
+  height: 600px;
+}
+
+.ap {
+  height: 600px;
+  width: 100%;
+  background-color: antiquewhite;
+  position: absolute;
+
+  overflow: hidden;
+}
+.ap2 {
+  position: absolute;
+  height: 600px;
+  left: 48vw;
+  transform: scale(0.9);
+  z-index: 2;
+  filter: blur(1px);
+}
+
+.ap3 {
+  position: absolute;
+  height: 600px;
+  left: 48vw;
+  transform: scale(0.8);
+  z-index: 2;
+  filter: blur(1px);
+}
+
+.do {
+  position: absolute;
+  animation: down 10s linear infinite;
+}
+
+.a1 {
+  animation: down 10s linear infinite;
+}
+
+.a2 {
+  right: 1vw;
+  animation: down 8s -5s linear infinite;
+}
+
+.a3 {
+  right: 10vw;
+  animation: down 8s -8s linear infinite;
+}
+
+.a4 {
+  right: 46vw;
+  animation: down 10s -2s linear infinite;
+  filter: blur(2px);
+}
+
+.a5 {
+  left: 22vw;
+  animation: down 7.3s -3.5s linear infinite;
+}
+.a6 {
+  left: 14vw;
+  animation: down 6s -8s linear infinite;
+  filter: blur(2px);
+}
+
+.a7 {
+  right: 16vw;
+  animation: down 9s -4s linear infinite;
+  filter: blur(3px);
+}
+
+@keyframes down {
+  0% {
+    top: -10%;
+
+    transform: translate(30px) rotate(0deg);
+  }
+
+  10% {
+    transform: translate(10px) rotate(20deg);
+  }
+
+  25% {
+    transform: translate(10px) rotate(40deg);
+  }
+
+  50% {
+    transform: translate(30px) rotate(62deg);
+  }
+  75% {
+    transform: translate(10px) rotate(84deg);
+  }
+
+  90% {
+    transform: translate(10px) rotate(106deg);
+  }
+
+  100% {
+    top: 110%;
+
+    transform: translate(30px) rotate(120deg);
+  }
+}
+
+.main {
+}
+
+.main ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.main li {
+  width: 100%;
+  height: 660px;
+  position: relative;
+}
+
+.main li h2 {
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  top: 120px;
+  left: 120px;
+  width: 60px;
+  text-align: center;
+  line-height: 1.05;
+}
+
+.main li h1 {
+  font-size: 66px;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  top: 200px;
+  left: 340px;
+  text-align: center;
+  line-height: 1.05;
+  font-style: italic;
+}
+
+.main li p {
+  font-size: 28px;
+  color: white;
+  position: absolute;
+  top: 400px;
+  left: 340px;
+  line-height: 1.2;
+}
+
+.block-1 {
+  background-image: url("../img/前端作業/海拉魯圖.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.block-1 h2 {
+  background-color: #05973f;
+}
+
+.block-1 .block-1-h2 {
+  left: 200px;
+  top: 140px;
+}
+
+.block-2 {
+  background-image: url("../img/前端作業/阿卡萊圖.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.block-2 h2 {
+  background-color: #b52222;
+}
+
+.block-2 .block-2-h2 {
+  left: 200px;
+  top: 140px;
+}
+
+.block-3 {
+  background-image: url("../img/前端作業/拉攝爾圖.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.block-3 h2 {
+  background-color: #359ab0;
+}
+
+.block-3 .block-3-h2 {
+  left: 200px;
+  top: 140px;
+}
+
+.block-4 {
+  background-image: url("../img/前端作業/格魯德圖.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.block-4 h2 {
+  background-color: #b4ab58;
+}
+
+.block-4 .block-4-h2 {
+  left: 200px;
+  top: 140px;
+}
+
+.block-5 {
+  background-image: url("../img/前端作業/海布拉圖.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.block-5 h2 {
+  background-color: #4b74c4;
+}
+
+.block-5 .block-5-h2 {
+  left: 200px;
+  top: 140px;
+}
+
+.block-6 {
+  background-image: url("../img/前端作業/奧爾汀圖.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.block-6 h2 {
+  background-color: #c16918;
+}
+
+.block-6 .block-6-h2 {
+  left: 200px;
+  top: 140px;
+}

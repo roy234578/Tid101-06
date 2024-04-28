@@ -1,0 +1,1239 @@
+@import url("./reset.css");
+
+body {
+  background-image: url("../img/背景圖2/sayagata-400px.png");
+  a {
+    text-decoration: none;
+    display: block;
+  }
+}
+
+/*---------------- 漢堡nav ----------------*/
+
+/* icon */
+
+.hamicon {
+  position: fixed;
+  width: 75px;
+  height: 75px;
+  z-index: 499;
+  right: 0;
+  top: 0;
+  background: url("../img/標籤/漢堡.png");
+  background-size: 75px 75px;
+  cursor: pointer;
+  border: none;
+  display: none;
+}
+
+.hamicon.i2 {
+  background: url("../img/標籤/colse.png");
+  position: fixed;
+  width: 75px;
+  height: 75px;
+  z-index: 500;
+  right: 0;
+  top: 0;
+  background-size: 75px 75px;
+  cursor: pointer;
+  border: none;
+  display: none;
+}
+
+/*--------- 內容選單區 ---------*/
+
+.hamburger {
+  position: fixed;
+  top: 0;
+  right: 0;
+
+  width: 100%;
+  z-index: 20;
+  box-sizing: border-box;
+  background: url("../img/背景圖2/漢堡bg.jpg");
+  display: none;
+}
+
+.ham-bor {
+  height: calc(100% - 40px);
+  padding: 80px 14px 70px 14px;
+  background-color: antiquewhite;
+}
+
+.ham-nav {
+  height: calc(100% - 40px);
+  padding: 12px 40px 62px 40px;
+  background: url("../img/標籤/邊框.png") top right no-repeat,
+    url("../img/標籤/邊框-3.png") bottom left no-repeat,
+    url("../img/標籤/邊框-2.png") top left no-repeat,
+    url("../img/標籤/邊框-4.png") bottom right no-repeat;
+}
+
+.ham-Logo {
+  width: 100%;
+  height: 22%;
+  /* background-color: white; */
+  text-align: center;
+}
+
+.ham-Logo img {
+  width: 150px;
+  height: 100%;
+}
+
+.ham-bor {
+  background: url("../img/背景圖2/漢堡nav-2.png") top left no-repeat,
+    url("../img/背景圖2/漢堡nav.png") bottom left no-repeat;
+}
+
+.ham-nav {
+  /* background: url("../img/標籤/邊框.png") top right no-repeat; */
+}
+
+.ham-nav ul {
+  width: 100%;
+  height: 78%;
+  display: flex;
+  flex-direction: column;
+}
+
+.ham-li {
+  width: 100%;
+  flex-grow: 1;
+  /* background-color: white; */
+  position: relative;
+  border-bottom: 1px solid black;
+}
+
+.ham-a {
+  padding: 10px 10px 10px 0;
+  height: calc(100% - 20px);
+}
+
+/* .ham-a h1 {
+  font-size: 28px;
+} */
+
+.ham-a::before {
+  content: "";
+  display: block;
+  background: url("../img/標籤/箭頭黑.png");
+  height: 14px;
+  margin-right: 10px;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 20px;
+}
+
+.ham-a h1 {
+  font-size: 28px;
+  margin-left: 22px;
+  color: #4b74c4;
+}
+
+/* .menu-link::before {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 14px;
+  margin-right: 10px;
+  background: url(/ex/legends_arceus/assets/img/common/menu/arrow.png) no-repeat;
+  background-size: 12px 14px;} */
+
+/* hover */
+
+.hamicon:hover {
+  background-image: url("../img/標籤/漢堡hover-2.png");
+  transition: 0.3s;
+}
+
+.hamicon.i2:hover {
+  background-image: url("../img/標籤/close-hover.png");
+  transition: 0.3s;
+}
+
+/*---------------- 首頁大圖和logo區 ----------------*/
+.Top {
+  position: relative;
+}
+.top-logo {
+  width: 100%;
+  height: 42vw;
+  background-image: url("../img/前端作業/首頁大圖.jpg");
+  /* background-image: url("../img/背景圖/背景大圖.png"); */
+  /* background-image: url("../img/背景圖/上方背景.jpg"); */
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  /* margin-bottom: 140px; */
+  padding-top: 60px;
+}
+
+/* .top-logo ul {
+  display: flex;
+  box-shadow: 1px 1px 3px;
+}
+
+.top-logo li {
+  height: 90px;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(126, 126, 126);
+}
+
+.nav {
+  flex-grow: 1;
+}
+
+.nav a {
+  font-size: 20px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  height: 90px;
+  line-height: 90px;
+}
+
+.nav h3 {
+  color: black;
+  height: 78px;
+}
+
+.logo {
+  background-image: url("../img/前端作業/new2-removebg-preview.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-grow: 1.1;
+} */
+
+.t-l {
+  width: 400px;
+  height: 310px;
+  background-image: url("../img/標籤/newLogo.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin-left: 8vw;
+}
+
+.date {
+  padding-top: 9vw;
+  margin-left: 9vw;
+  font-size: 46px;
+}
+
+.date h1 {
+  color: white;
+  text-shadow: 3px 3px 3px black;
+  font-style: italic;
+}
+
+.date .date1 {
+  font-size: 70px;
+}
+
+.date .date2 {
+  margin-left: 78px;
+}
+
+/* .t-n {
+  position: absolute;
+  bottom: -40px;
+  width: 100%;
+  z-index: 5;
+  position: sticky;
+  top: 0;
+} */
+
+.t-n {
+  top: 50px;
+  width: 100%;
+  z-index: 10;
+  position: sticky;
+  top: 0;
+  margin-bottom: 100px;
+}
+
+.t-n ul {
+  top: -200px;
+  width: 96%;
+  display: flex;
+  box-shadow: 1px 1px 3px;
+  margin: 0 auto;
+  border: 10px double white;
+  border-left: 0;
+  border-right: 0;
+}
+
+.t-n li {
+  flex-grow: 1;
+  width: 94%;
+  height: 70px;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(126, 126, 126);
+  border: 2px solid black;
+  border-left: 0;
+  border-right: 0;
+  position: relative;
+}
+
+.t-n-label {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 25px;
+  left: 2.8vw;
+  background-image: url("../icon/angles-right-solid-removebg-preview.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.t-n a {
+  font-size: 20px;
+  display: block;
+  text-align: center;
+  height: 70px;
+  line-height: 70px;
+}
+
+.t-n h3 {
+  display: block;
+  height: 68px;
+  color: black;
+}
+
+.t-n-bor {
+  width: 100%;
+  height: 2px;
+  background-color: red;
+  margin-top: 0px;
+  display: none;
+}
+
+/*--------- hover--------*/
+
+.t-n li:hover h3 {
+  transform: scale(1.2);
+  color: red;
+  /* text-shadow: 0px 0px 25px #4b74c4; */
+  font-weight: bold;
+}
+
+.t-n li:hover .t-n-bor {
+  display: block;
+}
+/* 
+.t-n li:hover a {
+  background-color: #4b74c4;
+} */
+
+.t-n li:hover .t-n-label {
+  background-image: url("../icon/angles-rightred-solid-removebg-preview.png");
+  transform: scale(1.2);
+  top: 25px;
+  left: 34px;
+}
+/*---------------- 中間內容區 ----------------*/
+
+/* -----text設定----- */
+
+.text {
+  position: absolute;
+  right: 0;
+  top: 12.5vw;
+  z-index: 5;
+  width: calc(100% - 62vw);
+}
+
+.texts {
+  position: absolute;
+  top: 21.5vw;
+  z-index: 5;
+  width: calc(100% - 82vw);
+}
+
+.text.explore {
+  left: 0;
+}
+
+.texts.skill0 {
+  left: 0;
+  top: 21vw;
+  width: 100%;
+  height: 3vw;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.texts.skill1 {
+  left: 5vw;
+}
+
+.texts.skill2 {
+  left: 30vw;
+}
+
+.texts.skill3 {
+  right: 33vw;
+}
+
+.texts.skill4 {
+  right: 5vw;
+}
+
+.text h1 {
+  font-size: 46px;
+  text-align: center;
+  color: white;
+}
+
+.text .h1-2 {
+  font-size: 34px;
+  text-align: center;
+  color: white;
+}
+
+/* .text .h1-3 {
+  position: relative;
+  top: -3vw;
+  right: -5vw;
+} */
+
+.texts h1 {
+  font-size: 28px;
+  text-align: center;
+  color: white;
+}
+
+.border-b {
+  border-bottom: 2px solid white;
+}
+
+.arrow-right {
+  position: absolute;
+  right: 11vw;
+  top: 15.9vw;
+  z-index: 5;
+  width: 1.6vw;
+  height: 1.6vw;
+  z-index: 1;
+}
+
+/* .arrow-right img {
+    width: 100%;
+    height: 100%;
+  } */
+
+.arrow-bg {
+  background-image: url("../icon/angles-rightred-solid-removebg-preview.png");
+  background-size: 100%;
+  height: 100%;
+}
+
+.arrow-right.explore {
+  left: 20vw;
+}
+
+/* -----背景圖設定----- */
+
+.bg {
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: 100%;
+}
+
+.bg.story {
+  background-image: url("../img/背景圖/選單背景圖-5.png");
+}
+
+.bg.explore {
+  background-image: url("../img/背景圖/選單背景圖-2-1.png");
+}
+
+.bg.move {
+  background-image: url("../img/背景圖/選單背景圖-3-10.png");
+}
+
+.bg.skill {
+  background-image: url("../img/背景圖/技能橫4.png");
+}
+
+.content {
+  height: 32.25vw;
+  width: calc(100% - 4vw);
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.contenta {
+  height: 32.25vw;
+  width: 100%;
+  position: absolute;
+}
+
+.content.story {
+  margin-left: auto;
+  margin-bottom: 20px;
+  -webkit-clip-path: polygon(
+    100% 0%,
+    100% 100%,
+    46% 100%,
+    43% 94%,
+    20% 94%,
+    0% 0%,
+    29% 0%
+  );
+}
+
+.contenta.story {
+  -webkit-clip-path: polygon(
+    100% 0%,
+    100% 100%,
+    46% 100%,
+    43% 94%,
+    20% 94%,
+    0% 0%,
+    29% 0%
+  );
+}
+
+.content.explore {
+  margin-right: auto;
+  -webkit-clip-path: polygon(
+    47% 0%,
+    50% 7%,
+    100% 7%,
+    91% 77%,
+    65% 77%,
+    60% 100%,
+    0% 100%,
+    0% 0%
+  );
+}
+
+.contenta.explore {
+  -webkit-clip-path: polygon(
+    47% 0%,
+    50% 7%,
+    100% 7%,
+    91% 77%,
+    65% 77%,
+    60% 100%,
+    0% 100%,
+    0% 0%
+  );
+}
+
+.content.move {
+  margin-left: auto;
+  margin-bottom: 120px;
+  /* top: 40px; */
+  top: -4vw;
+  -webkit-clip-path: polygon(
+    100% 0%,
+    100% 100%,
+    52% 100%,
+    19% 100%,
+    0% 24%,
+    56% 24%,
+    61% 0
+  );
+}
+
+.contenta.move {
+  -webkit-clip-path: polygon(
+    100% 0%,
+    100% 100%,
+    52% 100%,
+    19% 100%,
+    0% 24%,
+    56% 24%,
+    61% 0
+  );
+}
+
+.content.skill {
+  height: 24vw;
+  width: 100%;
+  margin-bottom: 80px;
+}
+
+.content.skill.s2 {
+  display: none;
+}
+
+.content.skill.s3 {
+  display: none;
+}
+
+.content.skill ul {
+  display: flex;
+}
+
+.section {
+  position: relative;
+}
+
+/* -----上方標籤設定----- */
+
+.label {
+  height: 5.75vw;
+  width: calc(100% - 70vw);
+  position: absolute;
+  right: 0;
+  z-index: 2;
+}
+
+.label.story {
+  top: -2.5vw;
+}
+
+.label.explore {
+  top: -2.25vw;
+  left: 0;
+}
+
+.label.move {
+  top: -6.1vw;
+}
+
+.label.skill {
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  top: -12.5vw;
+  height: 20.55vw;
+  width: calc(100% - 32vw);
+}
+
+.lbg.story {
+  background-image: url("../img/背景圖/label2.png");
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: 100%;
+}
+
+.lbg.explore {
+  background-image: url("../img/背景圖/label2-2.png");
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: 100%;
+}
+
+.lbg.move {
+  background-image: url("../img/背景圖/label3-2.png");
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: 100%;
+}
+
+.lbg.skill {
+  background-image: url("../img/標籤/新技能4-2.png");
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: 100%;
+}
+
+/* ---------插入圖設定--------- */
+
+.inbg {
+  background-image: url("../img/前端作業/薩爾達半身2.png");
+  background-repeat: no-repeat;
+  height: 30vw;
+  width: 30vw;
+  background-size: 100%;
+  position: absolute;
+  z-index: 2;
+  bottom: -4.5vw;
+  pointer-events: none;
+}
+
+.inbg2 {
+  background-image: url("../img/前端作業/林克半身3.png");
+  background-repeat: no-repeat;
+  height: 28vw;
+  width: 18.5vw;
+  background-size: 100%;
+  position: absolute;
+  z-index: 2;
+  right: 0;
+  bottom: 4vw;
+  overflow: auto;
+  pointer-events: none;
+}
+
+/* hover */
+
+.content.story:hover .bg.story {
+  background-image: url("../img/背景圖/hover-1-2.png");
+  transition: 0.8s;
+}
+
+.content.story:hover .text.story h1 {
+  text-shadow: 0px 0px 15px white;
+}
+
+.content.story:hover .border-b {
+  border-bottom: 2px solid red;
+}
+
+.content.explore:hover .bg.explore {
+  background-image: url("../img/背景圖/hover-2.png");
+  transition: 0.8s;
+}
+
+.content.explore:hover .text.explore h1 {
+  text-shadow: 0px 0px 15px white;
+}
+
+.content.explore:hover .border-b {
+  border-bottom: 2px solid red;
+}
+
+.content.move:hover .bg.move {
+  background-image: url("../img/背景圖/hover-3-1.png");
+  transition: 0.8s;
+}
+
+.content.move:hover .text.move h1 {
+  text-shadow: 0px 0px 15px white;
+}
+
+.content.move:hover .border-b {
+  border-bottom: 2px solid red;
+}
+
+.content.skill:hover .texts h1 {
+  text-shadow: 0px 0px 15px white;
+}
+
+/*---------------- 最新消息及商品區 ----------------*/
+.main-bottom {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.main-bottom-h1 {
+  display: block;
+  text-align: center;
+  width: 450px;
+  /* border-bottom: 2px solid black; */
+  font-weight: bold;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  font-size: 40px;
+  background-image: url("../img/標籤/Frame\ 267.png");
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+}
+
+.bot-label {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 94px;
+  height: 31px;
+  line-height: 33px;
+  text-align: center;
+  color: white;
+  margin-left: 2vw;
+  margin-top: 1.2vw;
+}
+
+.bot-h2 {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 120px;
+  height: 66px;
+  line-height: 66px;
+  text-align: center;
+  color: black;
+  background-image: url("../img/標籤/標籤5.png");
+}
+
+.l1 {
+  background-image: url("../img/標籤/標籤4.png");
+  margin-left: 4vw;
+}
+
+.l2 {
+  background-image: url("../img/標籤/標籤2.png");
+}
+
+.l3 {
+  background-image: url("../img/標籤/標籤3.png");
+}
+
+.l4 {
+  background-image: url("../img/標籤/標籤.png");
+}
+
+.bot-labNum {
+  font-size: 24px;
+  height: 28px;
+  line-height: 28px;
+  margin-left: 1vw;
+  margin-top: 1.3vw;
+}
+
+.bot-div h2 {
+  font-size: 34px;
+}
+
+.bot-div h3 {
+  font-size: 22px;
+  text-align: center;
+}
+
+.main-bottom .bot-div ul {
+  margin-bottom: 20px;
+}
+
+.main-bottom ul {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.bot-Li {
+  width: 24%;
+  height: 20.6vw;
+  margin: 0 10px;
+  background-image: url("../img/背景圖/p0025_l.jpg");
+  padding: 10px;
+  position: relative;
+}
+
+.main-bottom ul li:nth-child(1) {
+  margin-left: 0;
+}
+
+.main-bottom ul li:nth-child(4) {
+  margin-right: 0;
+}
+
+.bot-Li a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.bottom {
+  height: 9.2vw;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bottom.t1 {
+  background-image: url("../img/前端作業/林克天空.jpg");
+  background-size: 100%;
+}
+
+.bottom.t2 {
+  background-size: 100%;
+  background-image: url("../img/前端作業/商品9.jpg");
+}
+
+.bottom.t3 {
+  background-size: cover;
+  background-image: url("../img/前端作業/戰鬥.png");
+}
+
+.bottom.t4 {
+  background-size: cover;
+  background-image: url("../img/前端作業/天空圖.jpg");
+}
+
+.bottom-b p:nth-child(1) {
+  margin-top: 4px;
+}
+
+.bottom-b {
+  background-color: white;
+  height: 10.6vw;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.bottom-b p {
+  margin-bottom: 8px;
+}
+
+.pNews {
+  background-image: url("../img/標籤/標籤2.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 70px;
+  height: 23px;
+  line-height: 23px;
+  text-align: center;
+  border-radius: 50px;
+  color: white;
+}
+
+.pNews2 {
+  background-image: url("../img/標籤/標籤3.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 70px;
+  height: 23px;
+  line-height: 23px;
+  text-align: center;
+  border-radius: 50px;
+  color: white;
+}
+
+.pNews3 {
+  background-image: url("../img/標籤/標籤.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 70px;
+  height: 23px;
+  line-height: 23px;
+  text-align: center;
+  border-radius: 50px;
+  color: white;
+}
+
+.bottom-a {
+  display: block;
+  text-align: center;
+  font-size: 24px;
+  width: 280px;
+  height: 60px;
+  line-height: 60px;
+  margin: 0 auto;
+  margin-top: 20px;
+  color: white;
+  background-image: url("../img/標籤/button.png");
+  background-size: 100% 100%;
+  opacity: 0.8;
+}
+
+.main-bottom .bottom-a:hover {
+  opacity: 1;
+}
+
+.bot-Li:hover .bottom {
+  background-size: 120%;
+}
+
+/*----------- 商品區 --------*/
+
+.price {
+  display: flex;
+  padding-top: 60px;
+  width: 100%;
+  position: relative;
+  background-image: url("../img/背景圖2/link_bg.jpg");
+  overflow: hidden;
+  margin-top: 90px;
+}
+
+.price-pic {
+  width: 280px;
+  height: 420px;
+  background-image: url("../img/前端作業/商品圖2.png");
+  background-position: right;
+  background-size: cover;
+  margin-right: 60px;
+  margin-left: 50px;
+  margin-top: 70px;
+}
+
+.lpi {
+  width: 17vw;
+  height: 28vw;
+  margin-right: 3.5vw;
+  margin-left: 15vw;
+  margin-top: 100px;
+  box-shadow: 0px 0px 5px black;
+}
+
+.price-text {
+  width: 350px;
+  margin-top: 100px;
+}
+
+.price-text h2 {
+  font-size: 56px;
+}
+
+.price-text-title {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.price-text-h2 {
+  margin-bottom: 50px;
+  color: antiquewhite;
+  text-shadow: 0px 0px 15px blue;
+}
+
+.price-text-div p {
+  margin-top: 5px;
+  color: black;
+}
+
+.price-text-title li {
+  margin-right: 20px;
+}
+
+.price-text-shadow1 {
+  border-top: 2px solid blue;
+  border-bottom: 2px solid #1155dc;
+  padding: 3px 0;
+}
+
+.price-text-title h3 {
+  width: 100px;
+  font-size: 20px;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  background-color: rgb(0, 0, 142);
+  color: white;
+}
+
+.price-text-title p {
+  font-size: 18px;
+  height: 34px;
+  line-height: 34px;
+  font-weight: bold;
+}
+
+.price-text-h2 .prip2 {
+  line-height: 1.6;
+  font-size: 24px;
+  text-shadow: 0px 0px 5px blue;
+  width: 100px;
+  margin-left: 100px;
+}
+
+.price-text-div {
+  margin-bottom: 70px;
+}
+
+.price-text a {
+  display: block;
+  width: 310px;
+  height: 66px;
+  line-height: 66px;
+  color: white;
+  font-size: 26px;
+  text-align: center;
+  background-image: url("../img/標籤/button.png");
+  background-size: 100% 100%;
+  opacity: 0.8;
+}
+
+.price-text-shadow.p2 {
+  display: block;
+  width: 310px;
+  height: 66px;
+  line-height: 66px;
+  color: white;
+  font-size: 26px;
+  text-align: center;
+  background-image: url("../img/標籤/button.png");
+  background-size: 100% 100%;
+  opacity: 0.8;
+  display: none;
+}
+
+/* .rPic {
+  width: 25vw;
+  height: 40vw;
+  background-image: url("../img/前端作業/薩爾達-removebg-preview2.png");
+  background-image: url("../img/背景圖/薩爾達全身1.jpg");
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 0;
+} */
+
+.prblue {
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  background-image: url("../img/背景圖2/nav-bg2.png");
+  background-repeat: no-repeat;
+
+  top: -20px;
+}
+
+.prblue2 {
+  width: 100%;
+  height: 55px;
+  position: absolute;
+  background-image: url("../img/背景圖2/nav-bg.png");
+  background-repeat: no-repeat;
+  bottom: 0;
+}
+
+.rpi {
+  width: 27vw;
+  height: 41vw;
+  margin-bottom: 40px;
+}
+
+.c-t {
+  width: 60px;
+  height: 54px;
+  border: 1px solid black;
+  margin-top: 500px;
+  margin-left: 100px;
+  padding-top: 6px;
+}
+
+.comeback-top {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-image: url("../icon/angles-up-solid__2_-removebg-preview.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+.c-t a {
+  display: block;
+  text-align: center;
+  padding-top: 6px;
+  font-size: 22px;
+  width: 40px;
+  height: 20px;
+  line-height: 20px;
+  margin: 0 auto;
+
+  color: black;
+}
+
+/* hover */
+
+.price-text a:hover {
+  opacity: 1;
+}
+
+.c-t:hover .comeback-top {
+  background-image: url("../icon/angles-upred-solid__3_-removebg-preview.png");
+}
+
+.c-t:hover a {
+  color: red;
+}
+
+/* ---底部nav--- */
+.bot-n {
+  margin-top: 100px;
+}
+
+.bot-n ul {
+  display: flex;
+  box-shadow: 1px 1px 3px;
+}
+
+.bot-n li {
+  height: 90px;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(126, 126, 126);
+  position: relative;
+}
+
+.nav {
+  flex-grow: 1;
+}
+
+.bot-n-label {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 34px;
+  left: 42px;
+  background-image: url("../icon/angles-right-solid-removebg-preview.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.nav a {
+  font-size: 20px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  height: 90px;
+  line-height: 90px;
+}
+
+.nav h3 {
+  color: black;
+  height: 78px;
+}
+
+.logo {
+  /* background-image: url("../img/前端作業/new2-removebg-preview.png"); */
+  background-repeat: no-repeat;
+  width: 100px;
+  flex-grow: 1.1;
+}
+
+.logo a {
+  width: 100px;
+}
+
+.img-logo {
+  width: 100px;
+  height: 10%;
+  padding-left: 30px;
+}
+
+/* hover */
+.nav:hover h3 {
+  color: #4b74c4;
+  font-weight: bold;
+  border-bottom: 1px solid red;
+}
+
+.bot-n li:hover .bot-n-label {
+  background-image: url("../icon/angles-rightred-solid-removebg-preview.png");
+}
+
+/*---------------- footer ----------------*/
+.footer {
+  height: 136px;
+  /* margin-top: 60px; */
+  background-color: rgb(154, 154, 154);
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.footer p {
+  color: white;
+  line-height: 1.1;
+}
+
+.footer ul {
+  display: flex;
+}
+
+.f-logo {
+  background-image: url("../img/前端作業/new2-removebg-preview.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+}
+
+.f-icon {
+  display: block;
+  margin-left: 1300px;
+  height: 50px;
+  line-height: 50px;
+}
+
+.f-t {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding-bottom: 4px;
+}
+
+.f-reference {
+  margin-top: 4px;
+}

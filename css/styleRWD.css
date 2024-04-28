@@ -1,0 +1,922 @@
+/*---------------- 漢堡nav ----------------*/
+@media screen and (max-width: 750px) {
+  .hamicon {
+    display: block;
+  }
+}
+
+/*---------------- 漢堡nav ----------------*/
+@media screen and (max-width: 1300px) {
+  .top-logo {
+    padding-top: 40px;
+  }
+  .t-l {
+    width: 350px;
+    height: 270px;
+  }
+}
+
+@media screen and (max-width: 1180px) {
+  .t-l {
+    width: 300px;
+    height: 230px;
+  }
+
+  .date {
+    padding-top: 7vw;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  .top-logo {
+    padding-top: 26px;
+  }
+
+  .t-l {
+    width: 240px;
+    height: 190px;
+  }
+
+  .date {
+    padding-top: 7vw;
+  }
+
+  .date .date1 {
+    font-size: 58px;
+  }
+
+  .date .date2 {
+    font-size: 40px;
+    margin-left: 56px;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .top-logo {
+    padding-top: 16px;
+  }
+
+  .t-l {
+    width: 200px;
+    height: 160px;
+  }
+
+  .date {
+    padding-top: 8vw;
+  }
+
+  .date .date1 {
+    font-size: 46px;
+  }
+
+  .date .date2 {
+    font-size: 31px;
+    margin-left: 46px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .top-logo {
+    height: 150vw;
+    background-size: auto 100%;
+    background-position: center;
+    /* background-image: url("../img/前端作業/首頁大圖.jpg"); */
+    background-image: url("../img/前端作業/商品圖0.jpg");
+  }
+
+  .t-l {
+    background-image: url("../img/標籤/newLogo.png");
+    width: 400px;
+    height: 290px;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    margin-top: 94vw;
+  }
+
+  .date {
+    margin-left: 30vw;
+    font-size: 46px;
+    padding-top: 0;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .top-logo {
+    height: 166vw;
+  }
+
+  .t-l {
+    width: 400px;
+    height: 290px;
+
+    margin-top: 102vw;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .top-logo {
+    height: 167vw;
+  }
+
+  .t-l {
+    width: 350px;
+    height: 242px;
+
+    margin-top: 102vw;
+  }
+
+  .date {
+    margin-left: 30vw;
+    font-size: 46px;
+    padding-top: 0;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .top-logo {
+    height: 146vw;
+  }
+
+  .t-l {
+    width: 49vw;
+    height: 33vw;
+
+    margin-top: 90vw;
+  }
+
+  .date .date1 {
+    font-size: 40px;
+  }
+
+  .date .date2 {
+    font-size: 27px;
+    margin-left: 38px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .date .date1 {
+    font-size: 34px;
+  }
+
+  .date .date2 {
+    font-size: 20px;
+    margin-left: 44px;
+  }
+}
+
+/* nav */
+
+@media screen and (max-width: 1400px) {
+  .t-n-label {
+    left: 1vw;
+  }
+
+  .t-n li:hover h3 {
+    transform: scale(1.1);
+    color: red;
+    /* text-shadow: 0px 0px 25px #4b74c4; */
+    font-weight: bold;
+  }
+
+  .t-n li:hover .t-n-label {
+    background-image: url("../icon/angles-rightred-solid-removebg-preview.png");
+    transform: scale(1.1);
+    top: 25px;
+    left: 2vw;
+  }
+}
+
+@media screen and (max-width: 945px) {
+  .t-n-label {
+    left: 0.5vw;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .t-n-label {
+    left: 1vw;
+  }
+
+  .t-n li:hover h3 {
+    transform: scale(1.1);
+    color: red;
+    /* text-shadow: 0px 0px 25px #4b74c4; */
+    font-weight: bold;
+  }
+
+  .t-n li:hover .t-n-label {
+    transform: scale(1.1);
+    top: 25px;
+    left: 2vw;
+  }
+}
+
+@media screen and (max-width: 1170px) {
+  .t-n-label {
+    left: 0.5vw;
+  }
+
+  .t-n li:hover .t-n-label {
+    transform: scale(1.1);
+    top: 25px;
+    left: 1vw;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .t-n-label {
+    left: 0.5vw;
+  }
+
+  .t-n li:hover .t-n-label {
+    transform: scale(1.1);
+    top: 25px;
+    left: 0.5vw;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  .t-n-label {
+    width: 14px;
+    height: 14px;
+    top: 28px;
+    left: 0.5vw;
+  }
+  .t-n a {
+    font-size: 15px;
+  }
+
+  .t-n li:hover .t-n-label {
+    transform: scale(1.1);
+    top: 28px;
+    left: 0.5vw;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .t-n {
+    display: none;
+  }
+
+  .Top {
+    margin-bottom: 100px;
+  }
+}
+
+/* ---------------- 中間內容區 ---------------- */
+
+@media screen and (max-width: 750px) {
+  .content {
+    height: 60vw;
+    width: 100%;
+  }
+
+  .content.skill {
+    height: 44vw;
+  }
+
+  .content.skill {
+    display: none;
+  }
+
+  .content.skill.s2 {
+    display: block;
+    margin-bottom: 0;
+  }
+
+  .content.skill.s3 {
+    display: block;
+  }
+
+  .content.story {
+    -webkit-clip-path: none;
+  }
+
+  .content.move {
+    -webkit-clip-path: none;
+    top: -6vw;
+  }
+
+  .content.explore {
+    -webkit-clip-path: none;
+  }
+
+  .contenta {
+    -webkit-clip-path: none;
+    height: 100%;
+  }
+
+  .bg {
+    background-size: auto 100%;
+  }
+
+  .bg.story {
+    background-position: 32%;
+  }
+
+  .bg.explore {
+    background-position: 45%;
+  }
+
+  .bg.move {
+    background-position: 40%;
+  }
+
+  .bg.skill.s2 {
+    background-image: url("../img/背景圖/技能上-1.png");
+    background-size: auto 100%;
+    background-position: center;
+  }
+
+  .bg.skill.s3 {
+    background-image: url("../img/背景圖/技能下-1.png");
+    background-size: auto 100%;
+    background-position: center;
+  }
+
+  /* -----上方標籤設定----- */
+
+  .label {
+    height: 12vw;
+    width: calc(100% - 38vw);
+    position: absolute;
+    right: 0;
+    z-index: 2;
+  }
+
+  .lbg.move {
+    background-image: url("../img/標籤/左標籤.png");
+  }
+
+  .label.explore {
+    top: -0.6vw;
+    left: 0;
+  }
+
+  .label.move {
+    top: 3.1vw;
+    left: 0;
+  }
+
+  .label.story {
+    top: -5.1vw;
+  }
+
+  .label.skill {
+    top: -15.1vw;
+    height: 21.5vw;
+    width: calc(100% - 24vw);
+  }
+
+  /* -----text設定----- */
+
+  .text {
+    top: 25.5vw;
+
+    width: calc(100% - 62vw);
+  }
+
+  .arrow-right {
+    width: 3.7vw;
+    height: 3.7vw;
+    right: 5.3vw;
+    top: 32.4vw;
+  }
+
+  .arrow-right.explore {
+    left: 6.2vw;
+  }
+
+  .content.skill.s2 .texts {
+    top: 38.2vw;
+  }
+
+  .content.skill.s2 .texts h1 {
+    font-size: 31px;
+    text-align: center;
+    color: white;
+  }
+
+  .content.skill.s2 .texts.skill0 {
+    top: 36.1vw;
+    height: 8vw;
+  }
+
+  .content.skill.s2 .texts.skill1 {
+    left: 17vw;
+  }
+
+  .content.skill.s2 .texts.skill2 {
+    left: 65vw;
+  }
+
+  .content.skill.s3 .texts {
+    top: 38.2vw;
+  }
+
+  .content.skill.s3 .texts h1 {
+    font-size: 31px;
+    text-align: center;
+    color: white;
+  }
+
+  .content.skill.s3 .texts.skill0 {
+    top: 36.1vw;
+    height: 8vw;
+  }
+
+  .content.skill.s3 .texts.skill3 {
+    left: 14.5vw;
+    width: calc(100% - 77vw);
+  }
+
+  .content.skill.s3 .texts.skill4 {
+    left: 63vw;
+    width: calc(100% - 77vw);
+  }
+  /* ---------插入圖設定--------- */
+  .inbg {
+    display: none;
+  }
+
+  .inbg2 {
+    display: none;
+  }
+
+  /* hover */
+
+  .cons23:hover .content.skill .texts h1 {
+    text-shadow: 0px 0px 15px white;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .arrow-right {
+    right: 9.7vw;
+    top: 16.7vw;
+  }
+
+  .arrow-right.explore {
+    left: 9.9vw;
+  }
+}
+
+@media screen and (max-width: 1230px) {
+  .arrow-right {
+    top: 17vw;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .arrow-right {
+    top: 17.2vw;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .arrow-right {
+    top: 16.4vw;
+  }
+
+  .text h1 {
+    font-size: 38px;
+  }
+
+  .text .h1-2 {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .arrow-right {
+    top: 16.8vw;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .arrow-right {
+    top: 17vw;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .arrow-right {
+    top: 17.3vw;
+    right: 8.6vw;
+  }
+
+  .arrow-right.explore {
+    left: 9vw;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .arrow-right {
+    top: 30.9vw;
+    right: 8.6vw;
+  }
+
+  .arrow-right.explore {
+    left: 9vw;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .texts h1 {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .texts h1 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .content.skill.s2 .texts h1 {
+    font-size: 28px;
+  }
+
+  .content.skill.s3 .texts h1 {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 565px) {
+  .content.skill.s2 .texts h1 {
+    width: 90px;
+  }
+
+  .content.skill.s3 .texts h1 {
+    width: 120px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .text h1 {
+    font-size: 32px;
+  }
+
+  .content.story .border-b {
+    font-size: 30px;
+  }
+
+  .text .h1-2 {
+    font-size: 25.5px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .text h1 {
+    font-size: 29px;
+  }
+
+  .content.story .border-b {
+    font-size: 26px;
+  }
+
+  .text .h1-2 {
+    font-size: 22.8px;
+  }
+}
+
+@media screen and (max-width: 465px) {
+  .content.skill.s2 .texts {
+    top: 37.6vw;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .content.skill.s2 .texts h1 {
+    font-size: 24px;
+  }
+
+  .content.skill.s3 .texts h1 {
+    font-size: 24px;
+  }
+  .content.skill.s2 .texts {
+    top: 37.2vw;
+  }
+
+  .content.skill.s3 .texts {
+    top: 37.2vw;
+  }
+
+  .content.skill.s3 .texts.skill3 {
+    left: 12.2vw;
+  }
+
+  .content.skill.s3 .texts.skill4 {
+    left: 58vw;
+  }
+}
+
+/*---------------- 最新消息及商品區 ----------------*/
+
+@media screen and (max-width: 860px) {
+  .bot-Li {
+    height: 24vw;
+  }
+
+  .bottom-b {
+    height: 13.6vw;
+  }
+
+  .bottom.t1 {
+    background-size: 100% 100%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .main-bottom ul {
+    flex-direction: column;
+  }
+
+  .main-bottom ul li {
+    margin-left: 0;
+    margin-bottom: 14px;
+  }
+
+  .bot-Li {
+    width: 100%;
+    height: 54vw;
+  }
+
+  .bottom {
+    height: 40vw;
+  }
+
+  .bottom-b {
+    height: 12.6vw;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .bot-Li {
+    height: 58vw;
+  }
+
+  .bottom {
+    height: 41vw;
+  }
+
+  .bottom-b {
+    height: 14.6vw;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .main-bottom-h1 {
+    width: 80vw;
+    /* border-bottom: 2px solid black; */
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    font-size: 40px;
+    background-image: url("../img/標籤/Frame\ 267.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .main-bottom-h1 h1 {
+    padding-left: 10px;
+  }
+}
+
+@media screen and (max-width: 515px) {
+  .bot-Li {
+    height: 60vw;
+  }
+
+  .bottom {
+    height: 41vw;
+  }
+
+  .bottom-b {
+    height: 16.6vw;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .bot-Li {
+    height: 64.5vw;
+  }
+
+  .bottom {
+    height: 41vw;
+  }
+
+  .bottom-b {
+    height: 21vw;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .main-bottom-h1 h1 {
+    font-size: 31px;
+    padding-left: 10px;
+  }
+}
+/*----------- 商品區 --------*/
+
+@media screen and (max-width: 1150px) {
+  .price-text {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .price-text h2 {
+    font-size: 46px;
+  }
+
+  .price-text-h2 .prip2 {
+    line-height: 1.6;
+    font-size: 24px;
+    width: 100px;
+    margin-left: 74px;
+  }
+
+  .price-text {
+    width: 290px;
+  }
+
+  .price-text-title h3 {
+    width: 84px;
+    font-size: 17px;
+    height: 30px;
+    line-height: 30px;
+  }
+
+  .price-text-title p {
+    font-size: 17px;
+    height: 34px;
+    line-height: 34px;
+    width: 193px;
+  }
+
+  .price-text-title li {
+    margin-right: 14px;
+  }
+
+  .price-text-div {
+    margin-bottom: 50px;
+  }
+
+  .rpi {
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .price-text-h2 {
+    margin-bottom: 30px;
+  }
+
+  .rpi {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .rpi {
+    display: none;
+  }
+
+  .price-text {
+    margin-top: 14px;
+    margin-bottom: 160px;
+  }
+
+  .lpi {
+    width: 24vw;
+    height: 40vw;
+    margin-right: 3.5vw;
+    margin-left: 18vw;
+    margin-top: 142px;
+  }
+
+  .price-text-h2 {
+    position: relative;
+    left: -12vw;
+  }
+
+  .price-text h2 {
+    font-size: 56px;
+  }
+
+  .price-text-h2 .prip2 {
+    line-height: 1.6;
+    font-size: 28px;
+    width: 120px;
+    margin-left: 93px;
+  }
+
+  .price-text-div {
+    margin-bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .lpi {
+    margin: 0 auto;
+    margin-top: 142px;
+    margin-bottom: 360px;
+    width: 141.5px;
+    height: 235.8px;
+  }
+
+  .price-text {
+    position: absolute;
+    right: 22vw;
+  }
+
+  .price-text-h2 {
+    margin-bottom: 300px;
+  }
+
+  .price-text-h2 {
+    left: -2vw;
+  }
+
+  .price-text-div {
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 431px) {
+  .price-text h2 {
+    font-size: 46px;
+  }
+  .price-text-h2 {
+    left: 6vw;
+  }
+
+  .price-text-h2 .prip2 {
+    line-height: 1.6;
+    font-size: 24px;
+    width: 120px;
+    margin-left: 76px;
+  }
+
+  .price-text {
+    right: 13vw;
+  }
+}
+
+/*---------------- footer ----------------*/
+@media screen and (max-width: 980px) {
+  .footer {
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .footer {
+    height: 170px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .footer {
+    height: 180px;
+  }
+
+  .footer p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .footer {
+    height: 153px;
+  }
+
+  .footer p {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .footer {
+    height: 160px;
+  }
+
+  .footer p {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .footer {
+    height: 150px;
+  }
+
+  .footer p {
+    font-size: 10.6px;
+  }
+}

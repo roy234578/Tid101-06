@@ -15,62 +15,63 @@
     />
 
     <link rel="stylesheet" href="./css/skill.css" />
+    <link rel="stylesheet" href="./css/ham.css" />
+    <link rel="stylesheet" href="./css/navRWD.css" />
+    <link rel="stylesheet" href="./css/skillRWD.css" />
+    <link rel="stylesheet" href="./css/footerRWD.css" />
   </head>
   <body>
-    <!---------------------- top ---------------------->
-    <div class="skill1-top">
-      <div>
-        <h1>究極手</h1>
-        <h2>「抓取」物品，「黏合」在一起</h2>
-      </div>
-    </div>
-    <!---------------------- main ---------------------->
-    <div class="skill1-main">
-      <div class="skill1-video">
-        <iframe
-          width="600"
-          height="340"
-          src="https://www.youtube.com/embed/5NSqohNZaDg?si=gO3mrQPH83p__esu"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
-      </div>
-      <div class="skill1-right">
-        <div class="skill1-right-bg"></div>
-      </div>
-    </div>
-    <div class="skill1-bottom">
-      <p class="skill1-bottom-p">
-        只要是能用究極手「抓取」的物品，任何東西都能黏在一起。<br />
-        除了在抓取狀態下上下推動R操控搖桿可調整高度之外，在按住R鍵的狀態下操作方向鍵也能縱向或橫向旋轉物品。
-      </p>
-      <p>
-        將物品互相搭配之後，或許就能解開某些機關或找到新的前進路線。<br />
-        黏住物品可以自由拆除，失敗的時候請重試一次。
-      </p>
-    </div>
+    <!-------------------------- 漢堡nav -------------------------->
 
-    <!---------------------- skill-nav ---------------------->
-    <div class="skill-nav">
-      <div>
-        <a href="#"><img src="./img/前端作業/究極手1.jpg" alt="" /></a>
-      </div>
-      <div>
-        <a href="skill02.html"><img src="./img/前端作業/餘料2.jpg" alt="" /></a>
-      </div>
-      <div>
-        <a href="skill03.html"><img src="./img/前端作業/時間1.jpg" alt="" /></a>
-      </div>
-      <div>
-        <a href="skill03.html"
-          ><img src="./img/前端作業/通天術3.jpg" alt=""
-        /></a>
+    <button id="hamicon1" class="hamicon i1"></button>
+    <button id="hamicon2" class="hamicon i2"></button>
+    <div id="hamburger" class="hamburger">
+      <div class="ham-bor">
+        <div class="ham-nav">
+          <a class="ham-Logo" href="index.html">
+            <img src="./img/標籤/newLogo.png" alt="" />
+          </a>
+
+          <ul>
+            <li class="ham-li">
+              <a class="ham-a hstory" href="story.html">
+                <h1>故事&角色</h1>
+              </a>
+            </li>
+
+            <li class="ham-li">
+              <a class="ham-a hexplore" href="explore.html">
+                <h1>探索世界</h1>
+              </a>
+            </li>
+
+            <li class="ham-li">
+              <a class="ham-a hmove" href="move.html">
+                <h1>移動道具</h1>
+              </a>
+            </li>
+
+            <li class="ham-li">
+              <a class="ham-a hskill" href="skill.html">
+                <h1>特殊能力</h1>
+              </a>
+            </li>
+
+            <li class="ham-li">
+              <a class="ham-a hnews" href="news.html">
+                <h1>最新消息</h1>
+              </a>
+            </li>
+
+            <li class="ham-li">
+              <a class="ham-a hprice" href="price.html">
+                <h1>商品資訊</h1>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
-
     <!---------------------- nav ---------------------->
 
     <div class="bot-n">
@@ -110,6 +111,113 @@
         </li>
       </ul>
     </div>
+    <div class="nav-b"></div>
+    <!---------------------- top ---------------------->
+    <div class="skill1-top">
+      <div>
+        <video
+          autoplay
+          loop
+          muted
+          class="sk"
+          src="./img/背景圖2/究極手1.mp4"
+        ></video>
+        <h1>究極手</h1>
+        <h2>「抓取」物品，「黏合」在一起</h2>
+      </div>
+    </div>
+    <!---------------------- main ---------------------->
+    <div class="skill1-main">
+      <div class="skill1-video">
+        <iframe
+          width="600"
+          height="340"
+          src="https://www.youtube.com/embed/5NSqohNZaDg?si=gO3mrQPH83p__esu"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div class="skill1-right">
+        <div class="skill1-right-bg"></div>
+      </div>
+    </div>
+    <div class="skill1-bottom">
+      <p class="skill1-bottom-p">
+        只要是能用究極手「抓取」的物品，任何東西都能黏在一起。<br />
+        除了在抓取狀態下上下推動R操控搖桿可調整高度之外，在按住R鍵的狀態下操作方向鍵也能縱向或橫向旋轉物品。
+      </p>
+      <p>
+        將物品互相搭配之後，或許就能解開某些機關或找到新的前進路線。<br />
+        黏住物品可以自由拆除，失敗的時候請重試一次。
+      </p>
+    </div>
+
+    <!---------------------- skill-nav ---------------------->
+    <div class="skill-nav">
+      <div>
+        <a class="nav n1" href="#"
+          ><img src="./img/前端作業/究極手1.jpg" alt=""
+        /></a>
+      </div>
+      <div>
+        <a class="nav n2" href="skill02.html"
+          ><img src="./img/前端作業/餘料2.jpg" alt=""
+        /></a>
+      </div>
+      <div>
+        <a class="nav n3" href="skill03.html"
+          ><img src="./img/前端作業/時間1.jpg" alt=""
+        /></a>
+      </div>
+      <div>
+        <a class="nav n4" href="skill03.html"
+          ><img src="./img/前端作業/通天術3.jpg" alt=""
+        /></a>
+      </div>
+    </div>
+
+    <!---------------------- nav ---------------------->
+
+    <!-- <div class="bot-n">
+      <ul>
+        <li class="logo">
+          <a href="index.html">
+            <img
+              class="img-logo"
+              src="./img/前端作業/new2-removebg-preview.png"
+              alt=""
+            />
+          </a>
+        </li>
+        <li class="nav">
+          <div class="bot-n-label"></div>
+          <a href="story.html"><h3>故事&角色</h3></a>
+        </li>
+        <li class="nav">
+          <div class="bot-n-label"></div>
+          <a href="explore.html"><h3>探索世界</h3></a>
+        </li>
+        <li class="nav">
+          <div class="bot-n-label"></div>
+          <a href="move.html"><h3>移動道具</h3></a>
+        </li>
+        <li class="nav">
+          <div class="bot-n-label"></div>
+          <a href="skill.html"><h3>特殊能力</h3></a>
+        </li>
+        <li class="nav">
+          <div class="bot-n-label"></div>
+          <a href="news.html"><h3>最新消息</h3></a>
+        </li>
+        <li class="nav">
+          <div class="bot-n-label"></div>
+          <a href="price.html"><h3>商品資訊</h3></a>
+        </li>
+      </ul>
+    </div> -->
 
     <!---------------------- footer ---------------------->
     <footer class="footer">
@@ -126,5 +234,7 @@
         參考資料來源:https://www.nintendo.com.hk/switch/zelda_botw/discovery/index.html
       </p>
     </footer>
+
+    <script src="./js/ham.js"></script>
   </body>
 </html>

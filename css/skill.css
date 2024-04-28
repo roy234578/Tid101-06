@@ -2,8 +2,9 @@
 
 body {
   background-image: url("../img/前端作業/角色背景.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
+  /* background-image: url("../img/背景圖2/link_bg.jpg"); */
+  /* background-image: url("../img/背景圖2/sayagata-400px.png"); */
   a {
     text-decoration: none;
     display: block;
@@ -12,40 +13,54 @@ body {
 
 /*---------------- top ----------------*/
 .top {
-  height: 200px;
-
-  background-size: 100%;
+  height: 480px;
+  background-size: cover;
   background-repeat: no-repeat;
-
   margin: 0 auto;
   position: relative;
+  background-image: url("../img/前端作業/林克天空.jpg");
+  background-position: center;
 }
 
 .top h1 {
   width: 420px;
   height: 66px;
   line-height: 66px;
-  font-size: 66px;
+  font-size: 64px;
   font-weight: bold;
   color: white;
   text-align: center;
-  margin-left: 40px;
+  margin-left: 24px;
   position: absolute;
-  top: 100px;
+  top: 64px;
   text-shadow: 1px 1px 5px black;
 }
 
 .top .top-text {
   width: 460px;
-  right: 100px;
+  left: -55px;
   font-size: 28px;
-  top: 100px;
+  top: 210px;
+}
+
+.top .top-text3 {
+  width: 460px;
+  left: 7px;
+  font-size: 28px;
+  top: 248px;
+}
+
+.top .top-text4 {
+  width: 460px;
+  left: -35px;
+  font-size: 28px;
+  top: 288px;
 }
 
 .top .top-text2 {
   width: 460px;
-  right: 70px;
-  top: 140px;
+  left: -47px;
+  top: 325px;
   font-size: 28px;
 }
 
@@ -71,96 +86,143 @@ body {
   position: relative;
 }
 
-.main li {
-  height: 380px;
-  border: 1px solid black;
-}
-
 .main h2 {
   font-size: 92px;
   color: white;
   font-weight: bold;
   text-shadow: 2px 2px 5px black;
-  margin-top: 130px;
+  padding-top: 8.9vw;
 }
 
-.label1 {
-  width: 85%;
+.label {
+  height: 25vw;
+  width: 85vw;
+  border: 1px solid black;
   position: absolute;
-  left: -10px;
   transform: skew(-15deg);
-  background-image: url("../img/前端作業/究極手1.jpg");
+}
+
+.labelBg {
+  height: 25vw;
+  width: 85vw;
   background-size: 100%;
   background-repeat: no-repeat;
+}
+
+.label.l1 {
+  left: -10px;
+}
+
+.labelBg.b1 {
+  background-image: url("../img/前端作業/究極手1.jpg");
   background-position: bottom;
 }
 
-.label1 h2 {
-  margin-left: 900px;
+.labelBg.b1 h2 {
+  padding-left: 60vw;
 }
 
-.label2 {
-  width: 85%;
-  position: absolute;
-  top: 440px;
+.label.l2 {
+  top: 29vw;
   left: 310px;
-  transform: skew(-15deg);
+}
+
+.labelBg.b2 {
   background-image: url("../img/前端作業/餘料2.jpg");
-  background-size: 100%;
-  background-repeat: no-repeat;
   background-position: center center;
 }
 
-.label2 h2 {
-  margin-left: 80px;
+.labelBg.b2 h2 {
+  padding-left: 80px;
 }
 
-.label3 {
-  width: 85%;
-  position: absolute;
-  top: 880px;
+.label.l3 {
+  top: 58vw;
   left: -70px;
-  transform: skew(-15deg);
+}
+
+.labelBg.b3 {
   background-image: url("../img/前端作業/時間1.jpg");
-  background-size: 100%;
-  background-repeat: no-repeat;
   background-position: center center;
 }
 
-.label3 h2 {
-  margin-left: 800px;
+.labelBg.b3 h2 {
+  padding-left: 53vw;
 }
 
-.label4 {
-  width: 85%;
-  position: absolute;
-  top: 1320px;
+.label.l4 {
+  top: 87vw;
   left: 240px;
-  transform: skew(-15deg);
-  background-image: url("../img/前端作業/通天術3.jpg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: center bottom;
 }
 
-.label4 h2 {
-  margin-left: 80px;
+.labelBg.b4 {
+  background-image: url("../img/前端作業/通天術3.jpg");
+  background-position: center center;
 }
+
+.labelBg.b4 h2 {
+  padding-left: 80px;
+}
+
+/* .video {
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+} */
 
 /* hover */
 
 .main li:hover h2 {
-  color: red;
+  text-shadow: 0px 0px 15px white;
   font-size: 98px;
 }
 
-.main li:hover {
-  box-shadow: 2px 2px 10px black;
+.label.l1:hover {
+  filter: drop-shadow(27px 27px black);
+  top: -40px;
+  left: -50px;
+  border: 2.5px solid #4b74c4;
+  padding: 10px;
+}
+
+.label.l2:hover {
+  filter: drop-shadow(27px 27px black);
+  top: calc(29vw - 40px);
+  left: 270px;
+
+  border: 2.5px solid #4b74c4;
+  padding: 10px;
+}
+
+.label.l3:hover {
+  filter: drop-shadow(27px 27px black);
+  top: calc(58vw - 40px);
+  left: -110px;
+
+  border: 2.5px solid #4b74c4;
+  padding: 10px;
+}
+
+.label.l4:hover {
+  filter: drop-shadow(27px 27px black);
+  top: calc(87vw - 40px);
+  left: 200px;
+  border: 2.5px solid #4b74c4;
+  padding: 10px;
 }
 
 /* ---底部nav--- */
+.nav-b {
+  height: 60px;
+}
+
+.nav-be {
+  height: 62px;
+}
 .bot-n {
-  margin-top: 20px;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
 }
 
 .bot-n ul {
@@ -168,8 +230,20 @@ body {
   box-shadow: 1px 1px 3px;
 }
 
+.bot-n ul li:nth-child(5) a {
+  border-bottom: 3px solid red;
+}
+
+.bot-n ul li:nth-child(5) div {
+  background-image: url("../icon/angles-rightred-solid-removebg-preview.png");
+}
+
+.bot-n ul li:nth-child(5) a h3 {
+  color: red;
+}
+
 .bot-n li {
-  height: 90px;
+  height: 60px;
   background-color: rgb(255, 255, 255);
   border-bottom: 1px solid rgb(126, 126, 126);
   position: relative;
@@ -180,10 +254,10 @@ body {
 }
 
 .bot-n-label {
-  width: 18px;
-  height: 18px;
+  width: 12px;
+  height: 12px;
   position: absolute;
-  top: 34px;
+  top: 22px;
   left: 42px;
   background-image: url("../icon/angles-right-solid-removebg-preview.png");
   background-repeat: no-repeat;
@@ -191,20 +265,21 @@ body {
 }
 
 .nav a {
-  font-size: 20px;
+  font-size: 18px;
   display: block;
   text-align: center;
   text-decoration: none;
-  height: 90px;
-  line-height: 90px;
+  height: 59px;
+  line-height: 59px;
 }
 
 .nav h3 {
   color: black;
-  height: 78px;
+  height: 59px;
 }
 
 .logo {
+  /* background-image: url("../img/前端作業/new2-removebg-preview.png"); */
   background-repeat: no-repeat;
   width: 100px;
   flex-grow: 1.1;
@@ -215,8 +290,8 @@ body {
 }
 
 .img-logo {
-  width: 100px;
-  height: 10%;
+  width: 90px;
+  height: 59px;
   padding-left: 30px;
 }
 
@@ -224,7 +299,6 @@ body {
 .nav:hover h3 {
   color: red;
   font-weight: bold;
-  border-bottom: 1px solid red;
 }
 
 .bot-n li:hover .bot-n-label {
@@ -233,8 +307,8 @@ body {
 
 /*---------------- footer ----------------*/
 .footer {
-  height: 160px;
-
+  height: 136px;
+  /* margin-top: 60px; */
   background-color: rgb(154, 154, 154);
   padding: 10px;
   padding-left: 30px;
@@ -242,7 +316,7 @@ body {
 }
 .footer p {
   color: white;
-  line-height: 1.4;
+  line-height: 1.1;
 }
 
 .footer ul {
@@ -265,7 +339,7 @@ body {
 }
 
 .f-t {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
   padding-bottom: 4px;
 }
 
@@ -275,19 +349,37 @@ body {
 
 /*---------------- 究極手介紹 ----------------*/
 .skill1-top {
-  width: 90%;
-  height: 400px;
+  width: 80%;
+  height: 36vw;
   margin: 40px auto;
-  padding: 20px;
-  background-color: #c9c9c9;
+  padding: 20px 0;
+  background-image: url("../img/背景圖/p0025_l.jpg");
 }
 
 .skill1-top div {
   height: 100%;
-  background-image: url("../img/前端作業/究極手介紹4.png");
+  width: calc(100% - 40px);
+  /* background-image: url("../img/前端作業/究極手介紹4.png"); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  margin-left: 1.5vw;
+  position: relative;
+  overflow: hidden;
+}
+
+.sk {
+  width: 100%;
+}
+
+.skill1-top h1 {
+  position: absolute;
+  top: 0;
+}
+
+.skill1-top h2 {
+  position: absolute;
+  top: 13vw;
 }
 
 .skill1-top h1 {
@@ -295,6 +387,7 @@ body {
   font-weight: bold;
   color: white;
   padding: 40px;
+  /* text-shadow: 1px 1px black; */
 }
 
 .skill1-top h2 {
@@ -302,11 +395,11 @@ body {
   font-weight: bold;
   color: white;
   padding-top: 200px;
-  padding-left: 840px;
+  /* padding-left: 800px; */
 }
 
 .skill1-main {
-  width: 90%;
+  width: 80%;
   margin: 20px auto;
   display: flex;
 }
@@ -316,7 +409,7 @@ body {
 
   width: 50%;
   padding: 20px;
-  background-color: #c9c9c9;
+  background-image: url("../img/背景圖/p0025_l.jpg");
   height: 340px;
 }
 
@@ -327,7 +420,7 @@ body {
 .skill1-right {
   width: 50%;
   padding: 20px;
-  background-color: #c9c9c9;
+  background-image: url("../img/背景圖/p0025_l.jpg");
   height: 340px;
 }
 
@@ -338,30 +431,31 @@ body {
   background-position: bottom;
 }
 
-.skill1-video p {
-  font-size: 24px;
-}
-
 .skill1-bottom {
   display: flex;
-  width: 90%;
-  margin: 20px auto;
+  width: 80%;
+  margin: 10px auto;
+  line-height: 1.3;
 }
 
 .skill1-bottom p {
-  width: 50%;
+  width: 45%;
   font-size: 24px;
+  color: white;
 }
 
 .skill1-bottom-p {
-  margin: 0 20px;
-  margin-right: 70px;
+  /* margin: 0 20px; */
+  margin-right: 80px;
 }
+
+/*-------------- ---- skill-nav ------------------ */
 
 .skill-nav {
   display: flex;
   width: 70%;
-  margin: 200px auto;
+  margin: 200px 0;
+  margin-left: 15vw;
   margin-bottom: 40px;
 }
 
@@ -372,7 +466,7 @@ body {
 }
 
 .skill-nav a {
-  margin-right: 140px;
+  margin-right: 5vw;
 }
 
 /* hover */

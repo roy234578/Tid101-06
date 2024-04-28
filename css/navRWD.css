@@ -1,0 +1,28 @@
+/*----------------- nav -----------------*/
+
+@media screen and (max-width: 1300px) {
+  .bot-n-label {
+    left: 2vw;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .bot-n-label {
+    left: 0.7vw;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .bot-n-label {
+    left: 0.5px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .bot-n {
+    display: none;
+  }
+  .nav-b {
+    display: none;
+  }
+}

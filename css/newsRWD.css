@@ -1,0 +1,394 @@
+/*---------------- 漢堡nav ----------------*/
+@media screen and (max-width: 750px) {
+  .hamicon {
+    display: block;
+  }
+}
+
+/*---------------- top ----------------*/
+@media screen and (max-width: 1000px) {
+  .top h1 {
+    font-size: 56px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .top h1 {
+    font-size: 46px;
+  }
+
+  .top {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .top h1 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .top h1 {
+    font-size: 36px;
+  }
+}
+
+/*---------------- main ----------------*/
+
+/*---------------- 最新消息及商品區 ----------------*/
+
+@media screen and (max-width: 900px) {
+  .main-bottom .bot-div ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  .li0 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+
+  .li1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+  .bot-label.l1 {
+    margin-left: 17.888px;
+  }
+
+  .li2 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+  .li3 {
+    grid-column-start: 6;
+    grid-column-end: 8;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+  .li4 {
+    grid-column-start: 8;
+    grid-column-end: 9;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+  .li5 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+
+  .li6 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+
+  .li7 {
+    grid-column-start: 6;
+    grid-column-end: 8;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+
+  .li8 {
+    grid-column-start: 8;
+    grid-column-end: 9;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .bot-Li {
+    height: 24vw;
+  }
+
+  .bottom-b {
+    height: 13.6vw;
+  }
+
+  .bottom.t1 {
+    background-size: 100% 100%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .main-bottom ul {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+
+  .main-bottom ul li {
+    margin-left: 0;
+    margin-bottom: 14px;
+  }
+
+  .bot-Li {
+    width: 100%;
+    height: 54vw;
+  }
+
+  .bottom {
+    height: 40vw;
+  }
+
+  .bottom-b {
+    height: 12.6vw;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .main-bottom .bot-div ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .li2 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+  .li3 {
+    grid-column-start: 6;
+    grid-column-end: 8;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+  .li4 {
+    grid-column-start: 9;
+    grid-column-end: 10;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+  .li5 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+
+  .li6 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+
+  .li7 {
+    grid-column-start: 6;
+    grid-column-end: 8;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+
+  .li8 {
+    grid-column-start: 9;
+    grid-column-end: 10;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .bot-Li {
+    height: 58vw;
+  }
+
+  .bottom {
+    height: 41vw;
+  }
+
+  .bottom-b {
+    height: 14.6vw;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .main-bottom .bot-div ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .bot-label.l1 {
+    margin-left: 10.888px;
+  }
+
+  .li2 {
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+  .li3 {
+    grid-column-start: 8;
+    grid-column-end: 10;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+  .li4 {
+    grid-column-start: 12;
+    grid-column-end: 13;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+  .li5 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+
+  .li6 {
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+
+  .li7 {
+    grid-column-start: 8;
+    grid-column-end: 10;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+
+  .li8 {
+    grid-column-start: 12;
+    grid-column-end: 13;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .main-bottom-h1 {
+    width: 80vw;
+    /* border-bottom: 2px solid black; */
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    font-size: 40px;
+    background-image: url("../img/標籤/Frame\ 267.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .main-bottom-h1 h1 {
+    padding-left: 10px;
+  }
+}
+
+@media screen and (max-width: 515px) {
+  .bot-Li {
+    height: 60vw;
+  }
+
+  .bottom {
+    height: 41vw;
+  }
+
+  .bottom-b {
+    height: 16.6vw;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .bot-Li {
+    height: 64.5vw;
+  }
+
+  .bottom {
+    height: 41vw;
+  }
+
+  .bottom-b {
+    height: 21vw;
+  }
+}
+
+@media screen and (max-width: 431px) {
+  .main-bottom-h1 h1 {
+    font-size: 31px;
+    padding-left: 10px;
+  }
+}
+
+@media screen and (max-width: 431px) {
+  .bot-label.l1 {
+    margin-left: 8.51px;
+  }
+
+  .li2 {
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+  .li3 {
+    grid-column-start: 8;
+    grid-column-end: 10;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+  .li4 {
+    grid-column-start: 13;
+    grid-column-end: 14;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+  .li5 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+
+  .li6 {
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+
+  .li7 {
+    grid-column-start: 8;
+    grid-column-end: 10;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+
+  .li8 {
+    grid-column-start: 13;
+    grid-column-end: 14;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+}

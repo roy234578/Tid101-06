@@ -1,0 +1,124 @@
+/*---------------- 漢堡nav ----------------*/
+
+/* icon */
+
+.hamicon {
+  position: fixed;
+  width: 75px;
+  height: 75px;
+  z-index: 499;
+  right: 0;
+  top: 0;
+  background: url("../img/標籤/漢堡.png");
+  background-size: 75px 75px;
+  cursor: pointer;
+  border: none;
+  display: none;
+}
+
+.hamicon.i2 {
+  background: url("../img/標籤/colse.png");
+  position: fixed;
+  width: 75px;
+  height: 75px;
+  z-index: 500;
+  right: 0;
+  top: 0;
+  background-size: 75px 75px;
+  cursor: pointer;
+  border: none;
+  display: none;
+}
+
+/*--------- 內容選單區 ---------*/
+
+.hamburger {
+  position: fixed;
+  top: 0;
+  right: 0;
+
+  width: 100%;
+  z-index: 20;
+  box-sizing: border-box;
+  background: url("../img/背景圖2/漢堡bg.jpg");
+  display: none;
+}
+
+.ham-bor {
+  height: calc(100% - 40px);
+  padding: 80px 14px 70px 14px;
+  background-color: antiquewhite;
+}
+
+.ham-nav {
+  height: calc(100% - 40px);
+  padding: 12px 40px 62px 40px;
+  background: url("../img/標籤/邊框.png") top right no-repeat,
+    url("../img/標籤/邊框-3.png") bottom left no-repeat,
+    url("../img/標籤/邊框-2.png") top left no-repeat,
+    url("../img/標籤/邊框-4.png") bottom right no-repeat;
+}
+
+.ham-Logo {
+  width: 100%;
+  height: 22%;
+  text-align: center;
+}
+
+.ham-Logo img {
+  width: 150px;
+  height: 100%;
+}
+
+.ham-bor {
+  background: url("../img/背景圖2/漢堡nav-2.png") top left no-repeat,
+    url("../img/背景圖2/漢堡nav.png") bottom left no-repeat;
+}
+
+.ham-nav ul {
+  width: 100%;
+  height: 78%;
+  display: flex;
+  flex-direction: column;
+}
+
+.ham-li {
+  width: 100%;
+  flex-grow: 1;
+  position: relative;
+  border-bottom: 1px solid black;
+}
+
+.ham-a {
+  padding: 10px 10px 10px 0;
+  height: calc(100% - 20px);
+}
+
+.ham-a::before {
+  content: "";
+  display: block;
+  background: url("../img/標籤/箭頭黑.png");
+  height: 14px;
+  margin-right: 10px;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 20px;
+}
+
+.ham-a h1 {
+  font-size: 28px;
+  margin-left: 22px;
+  color: #4b74c4;
+}
+
+/* hover */
+
+.hamicon:hover {
+  background-image: url("../img/標籤/漢堡hover-2.png");
+  transition: 0.3s;
+}
+
+.hamicon.i2:hover {
+  background-image: url("../img/標籤/close-hover.png");
+  transition: 0.3s;
+}

@@ -15,11 +15,122 @@
     />
 
     <link rel="stylesheet" href="./css/explore.css" />
+    <link rel="stylesheet" href="./css/ham.css" />
+    <link rel="stylesheet" href="./css/exploreRWD.css" />
+    <link rel="stylesheet" href="./css/navRWD.css" />
+    <link rel="stylesheet" href="./css/footerRWD.css" />
   </head>
   <body>
+    <!-------------------------- 漢堡nav -------------------------->
+
+    <button id="hamicon1" class="hamicon i1"></button>
+    <button id="hamicon2" class="hamicon i2"></button>
+    <div id="hamburger" class="hamburger">
+      <div class="ham-bor">
+        <div class="ham-nav">
+          <a class="ham-Logo" href="index.html">
+            <img src="./img/標籤/newLogo.png" alt="" />
+          </a>
+
+          <ul>
+            <li class="ham-li">
+              <a class="ham-a hstory" href="story.html">
+                <h1>故事&角色</h1>
+              </a>
+            </li>
+
+            <li class="ham-li">
+              <a class="ham-a hexplore" href="explore.html">
+                <h1>探索世界</h1>
+              </a>
+            </li>
+
+            <li class="ham-li">
+              <a class="ham-a hmove" href="move.html">
+                <h1>移動道具</h1>
+              </a>
+            </li>
+
+            <li class="ham-li">
+              <a class="ham-a hskill" href="skill.html">
+                <h1>特殊能力</h1>
+              </a>
+            </li>
+
+            <li class="ham-li">
+              <a class="ham-a hnews" href="news.html">
+                <h1>最新消息</h1>
+              </a>
+            </li>
+
+            <li class="ham-li">
+              <a class="ham-a hprice" href="price.html">
+                <h1>商品資訊</h1>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!---------------------- nav ---------------------->
+
+    <div class="bot-n">
+      <ul>
+        <li class="logo">
+          <a href="index.html">
+            <img
+              class="img-logo"
+              src="./img/前端作業/new2-removebg-preview.png"
+              alt=""
+            />
+          </a>
+        </li>
+        <li class="nav">
+          <div class="bot-n-label"></div>
+          <a href="story.html"><h3>故事&角色</h3></a>
+        </li>
+        <li class="nav">
+          <div class="bot-n-label"></div>
+          <a href="explore.html"><h3>探索世界</h3></a>
+        </li>
+        <li class="nav">
+          <div class="bot-n-label"></div>
+          <a href="move.html"><h3>移動道具</h3></a>
+        </li>
+        <li class="nav">
+          <div class="bot-n-label"></div>
+          <a href="skill.html"><h3>特殊能力</h3></a>
+        </li>
+        <li class="nav">
+          <div class="bot-n-label"></div>
+          <a href="news.html"><h3>最新消息</h3></a>
+        </li>
+        <li class="nav">
+          <div class="bot-n-label"></div>
+          <a href="price.html"><h3>商品資訊</h3></a>
+        </li>
+      </ul>
+    </div>
+    <div class="nav-be"></div>
     <!---------------------- top ---------------------->
     <div class="top01">
       <div class="top01-bg">
+        <video
+          autoplay
+          loop
+          muted
+          class="videoAK"
+          src="./img/背景圖2/阿卡萊-2.mp4"
+        ></video>
+
+        <video
+          autoplay
+          loop
+          muted
+          class="videoAK2"
+          src="./img/背景圖2/阿卡萊3.mp4"
+        ></video>
+
         <div class="top01-title">
           <p>HYRULE DICCOVERY</p>
           <p>JOURNEY</p>
@@ -95,7 +206,9 @@
       <div class="main01-bottom">
         <div class="main01-bottom-1">
           <div class="main01-bottom-title">
+            <div class="icon left"></div>
             <h3>挑戰地區的強大怪物 !</h3>
+            <div class="icon right"></div>
             <p>
               西諾克斯」雖然平常都在睡，但只要一醒來，就會使出驚人的力量作亂。<br />
               如果能驅逐牠，不只可以獲得貴重的材料，還有機會得到牠身上如項鍊般掛著的裝備。
@@ -105,14 +218,17 @@
             <div class="main01-bottom-video1">
               <video
                 autoplay
+                loop
+                muted
                 class="main01-bottom-video"
                 src="./img/前端作業/西諾克斯影片.mp4"
               ></video>
             </div>
             <div class="main01-bottom-text">
+              <div class="icon-vs"></div>
               <ul>
                 <li class="bottom-text-li">
-                  <p class="bottom-text-p1">vs</p>
+                  <!-- <p class="bottom-text-p1">vs</p> -->
                   <p class="bottom-text-p2">西諾克斯</p>
                 </li>
                 <li>
@@ -135,25 +251,30 @@
       </div>
     </div>
     <div class="button">
-      <a href=""
-        ><img
-          class="but-left"
-          src="./icon/angles-leftred-solid-removebg-preview.png"
-          alt=""
-      /></a>
-      <a class="but-left-a" href=""><p>前一個地區</p></a>
-      <div class="but-m"></div>
-      <a class="but-right-a" href=""><p>後一個地區</p></a>
-      <a href=""
-        ><img
-          class="but-right"
-          src="./icon/angles-rightred-solid-removebg-preview.png"
-          alt=""
-      /></a>
+      <div class="butbg lbg">
+        <a href="">
+          <img
+            class="but-left"
+            src="./icon/angles-leftred-solid-removebg-preview.png"
+            alt=""
+          />
+        </a>
+        <a class="but-left-a" href=""> 海拉魯全境</a>
+      </div>
+      <!-- <div class="but-m"></div> -->
+      <div class="butbg rbg">
+        <a class="but-right-a" href="">拉聶耳地區</a>
+        <a href=""
+          ><img
+            class="but-right"
+            src="./icon/angles-rightred-solid-removebg-preview.png"
+            alt=""
+        /></a>
+      </div>
     </div>
 
     <!---------------------- nav ---------------------->
-
+    <!-- 
     <div class="bot-n">
       <ul>
         <li class="logo">
@@ -190,7 +311,7 @@
           <a href="price.html"><h3>商品資訊</h3></a>
         </li>
       </ul>
-    </div>
+    </div> -->
 
     <!---------------------- footer ---------------------->
     <footer class="footer">
@@ -207,5 +328,7 @@
         參考資料來源:https://www.nintendo.com.hk/switch/zelda_botw/discovery/index.html
       </p>
     </footer>
+
+    <script src="./js/ham.js"></script>
   </body>
 </html>

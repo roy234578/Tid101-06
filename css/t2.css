@@ -1,0 +1,473 @@
+@import url("./reset.css");
+
+/* body {
+  background-image: url("../img/背景圖2/sayagata-400px.png");
+  a {
+    text-decoration: none;
+    display: block;
+  }
+} */
+
+/*---------------- main ----------------*/
+.main {
+  width: 100%;
+  position: relative;
+}
+
+.main-title {
+  position: absolute;
+  z-index: 2;
+  top: 10px;
+  width: 260px;
+  border: 5px double white;
+  background-color: black;
+  box-shadow: 5px 5px 5px gray;
+  opacity: 90%;
+}
+
+.main-title h1 {
+  text-align: center;
+  font-size: 44px;
+  color: white;
+}
+
+.main ul {
+  display: flex;
+  width: 100%;
+}
+
+.main li {
+  height: 600px;
+  background-size: cover;
+  border: 0.8px solid white;
+  background-position: center center;
+  transition: 0.7s;
+}
+
+.character-1 {
+  /* width: 100%;
+  height: 100%;
+  object-fit: cover; */
+  flex-grow: 1;
+  background-image: url("../img/前端作業/薩爾達.png");
+}
+
+.character-2 {
+  flex-grow: 1;
+  background-image: url("../img/前端作業/林克.png");
+}
+
+.character-3 {
+  flex-grow: 1;
+  background-image: url("../img/前端作業/加農多夫.png");
+}
+
+.main a {
+  margin: 0 auto;
+  color: white;
+  font-size: 24px;
+}
+
+.main p {
+  margin-top: 570px;
+  text-align: center;
+}
+/* hover */
+
+.main li:hover {
+  flex-grow: 2;
+}
+
+/* ---底部nav--- */
+.bot-n {
+  margin-top: 20px;
+}
+
+.bot-n ul {
+  display: flex;
+  box-shadow: 1px 1px 3px;
+}
+
+.bot-n li {
+  height: 90px;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(126, 126, 126);
+  position: relative;
+}
+
+.nav {
+  flex-grow: 1;
+}
+
+.bot-n-label {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 34px;
+  left: 42px;
+  background-image: url("../icon/angles-right-solid-removebg-preview.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.nav a {
+  font-size: 20px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  height: 90px;
+  line-height: 90px;
+}
+
+.nav h3 {
+  color: black;
+  height: 78px;
+}
+
+.logo {
+  /* background-image: url("../img/前端作業/new2-removebg-preview.png"); */
+  background-repeat: no-repeat;
+  width: 100px;
+  flex-grow: 1.1;
+}
+
+.logo a {
+  width: 100px;
+}
+
+.img-logo {
+  width: 100px;
+  height: 10%;
+  padding-left: 30px;
+}
+
+/* hover */
+.nav:hover h3 {
+  color: red;
+  font-weight: bold;
+  border-bottom: 1px solid red;
+}
+
+.bot-n li:hover .bot-n-label {
+  background-image: url("../icon/angles-rightred-solid-removebg-preview.png");
+}
+
+section {
+  position: relative;
+  height: 600px;
+}
+
+/* .ap {
+  height: 600px;
+  width: 100%;
+  background-color: antiquewhite;
+  position: absolute;
+
+  overflow: hidden;
+} */
+
+.do {
+  position: absolute;
+}
+
+.a1 {
+  animation: down 10s linear infinite;
+}
+
+.a2 {
+  right: 1vw;
+  animation: down 8s -5s linear infinite;
+}
+
+.a3 {
+  right: 10vw;
+  animation: down 8s -8s linear infinite;
+}
+
+.a4 {
+  right: 46vw;
+  animation: down 10s -2s linear infinite;
+  filter: blur(2px);
+}
+
+.a5 {
+  left: 22vw;
+  animation: down 7.3s -3.5s linear infinite;
+}
+.a6 {
+  left: 14vw;
+  animation: down 6s -8s linear infinite;
+  filter: blur(2px);
+}
+
+.a7 {
+  right: 16vw;
+  animation: down 9s -4s linear infinite;
+  filter: blur(3px);
+}
+
+@keyframes down {
+  0% {
+    top: -10%;
+
+    transform: translate(30px) rotate(0deg);
+  }
+
+  10% {
+    transform: translate(10px) rotate(20deg);
+  }
+
+  25% {
+    transform: translate(10px) rotate(40deg);
+  }
+
+  50% {
+    transform: translate(30px) rotate(62deg);
+  }
+  75% {
+    transform: translate(10px) rotate(84deg);
+  }
+
+  90% {
+    transform: translate(10px) rotate(106deg);
+  }
+
+  100% {
+    top: 110%;
+
+    transform: translate(30px) rotate(120deg);
+  }
+}
+
+.main {
+  height: 660px;
+}
+
+.main ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.main li {
+  overflow: hidden;
+  width: 100%;
+  height: 660px;
+  position: relative;
+}
+
+.main li h2 {
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  top: 120px;
+  left: 120px;
+  width: 60px;
+  text-align: center;
+  line-height: 1.05;
+}
+
+.main li h1 {
+  font-size: 66px;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  top: 200px;
+  left: 340px;
+  text-align: center;
+  line-height: 1.05;
+  font-style: italic;
+}
+
+.main li p {
+  font-size: 28px;
+  color: white;
+  position: absolute;
+  top: 400px;
+  left: 340px;
+  line-height: 1.2;
+}
+
+.block-1 {
+  background-image: url("../img/前端作業/海拉魯圖.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.block-1 h2 {
+  background-color: #05973f;
+}
+
+.block-1 .block-1-h2 {
+  left: 200px;
+  top: 140px;
+}
+
+.block-2 {
+  background-image: url("../img/前端作業/阿卡萊圖.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.block-2 h2 {
+  background-color: #b52222;
+}
+
+.block-2 .block-2-h2 {
+  left: 200px;
+  top: 140px;
+}
+
+.block-3 {
+  background-image: url("../img/前端作業/拉攝爾圖.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.block-3 h2 {
+  background-color: #359ab0;
+}
+
+.block-3 .block-3-h2 {
+  left: 200px;
+  top: 140px;
+}
+
+.block-4 {
+  background-image: url("../img/前端作業/格魯德圖.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.block-4 h2 {
+  background-color: #b4ab58;
+}
+
+.block-4 .block-4-h2 {
+  left: 200px;
+  top: 140px;
+}
+
+.block-5 {
+  background-image: url("../img/前端作業/海布拉圖.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.block-5 h2 {
+  background-color: #4b74c4;
+}
+
+.block-5 .block-5-h2 {
+  left: 200px;
+  top: 140px;
+}
+
+.block-6 {
+  background-image: url("../img/前端作業/奧爾汀圖.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.block-6 h2 {
+  background-color: #c16918;
+}
+
+.block-6 .block-6-h2 {
+  left: 200px;
+  top: 140px;
+}
+/* 
+倫波 */
+
+.tblock {
+  width: 500px;
+  margin: 0 auto;
+  border: 2px solid #000;
+  background-color: #fff;
+  /* position: relative;
+  overflow: hidden; */
+}
+
+/* .tdiv {
+  position: absolute;
+  display: flex;
+} */
+
+/* .text {
+  height: 100px;
+  color: #fff;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 100px;
+  text-align: center;
+}
+
+.red {
+  background-color: red;
+}
+.yellow {
+  background-color: rgb(209, 209, 0);
+}
+.blue {
+  background-color: blue;
+}
+.green {
+  background-color: green;
+}
+
+.btn {
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.tbtn {
+  width: 80px;
+  height: 40px;
+  font-size: 30px;
+} */
+
+body {
+  background-color: gray;
+}
+
+.carousel {
+  width: ;
+  margin: 0 auto;
+  border: 2px dashed #000;
+  background-color: #fff;
+}
+/* .content {
+  height: 100px;
+  color: #fff;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 100px;
+  text-align: center;
+} */
+
+.red {
+  background-color: red;
+}
+.yellow {
+  background-color: rgb(209, 209, 0);
+}
+.blue {
+  background-color: blue;
+}
+.purple {
+  background-color: purple;
+}
+
+.btnContainer {
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.btn {
+  width: 80px;
+  height: 40px;
+  font-size: 30px;
+}

@@ -8,6 +8,132 @@ body {
     overflow: hidden;
   }
 }
+
+/*---------------- 漢堡nav ----------------*/
+
+/* icon */
+
+.hamicon {
+  position: fixed;
+  width: 75px;
+  height: 75px;
+  z-index: 499;
+  right: 0;
+  top: 0;
+  background: url("../img/標籤/漢堡.png");
+  background-size: 75px 75px;
+  cursor: pointer;
+  border: none;
+  display: none;
+}
+
+.hamicon.i2 {
+  background: url("../img/標籤/colse.png");
+  position: fixed;
+  width: 75px;
+  height: 75px;
+  z-index: 500;
+  right: 0;
+  top: 0;
+  background-size: 75px 75px;
+  cursor: pointer;
+  border: none;
+  display: none;
+}
+
+/*--------- 內容選單區 ---------*/
+
+.hamburger {
+  position: fixed;
+  top: 0;
+  right: 0;
+
+  width: 100%;
+  z-index: 20;
+  box-sizing: border-box;
+  background: url("../img/背景圖2/漢堡bg.jpg");
+  display: none;
+}
+
+.ham-bor {
+  height: calc(100% - 40px);
+  padding: 80px 14px 70px 14px;
+  background-color: antiquewhite;
+}
+
+.ham-nav {
+  height: calc(100% - 40px);
+  padding: 12px 40px 62px 40px;
+  background: url("../img/標籤/邊框.png") top right no-repeat,
+    url("../img/標籤/邊框-3.png") bottom left no-repeat,
+    url("../img/標籤/邊框-2.png") top left no-repeat,
+    url("../img/標籤/邊框-4.png") bottom right no-repeat;
+}
+
+.ham-Logo {
+  width: 100%;
+  height: 22%;
+  text-align: center;
+}
+
+.ham-Logo img {
+  width: 150px;
+  height: 100%;
+}
+
+.ham-bor {
+  background: url("../img/背景圖2/漢堡nav-2.png") top left no-repeat,
+    url("../img/背景圖2/漢堡nav.png") bottom left no-repeat;
+}
+
+.ham-nav ul {
+  width: 100%;
+  height: 78%;
+  display: flex;
+  flex-direction: column;
+}
+
+.ham-li {
+  width: 100%;
+  flex-grow: 1;
+  position: relative;
+  border-bottom: 1px solid black;
+}
+
+.ham-a {
+  padding: 10px 10px 10px 0;
+  height: calc(100% - 20px);
+}
+
+.ham-a::before {
+  content: "";
+  display: block;
+  background: url("../img/標籤/箭頭黑.png");
+  height: 14px;
+  margin-right: 10px;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 20px;
+}
+
+.ham-a h1 {
+  font-size: 28px;
+  margin-left: 22px;
+  color: #4b74c4;
+}
+
+/* hover */
+
+.hamicon:hover {
+  background-image: url("../img/標籤/漢堡hover-2.png");
+  transition: 0.3s;
+}
+
+.hamicon.i2:hover {
+  background-image: url("../img/標籤/close-hover.png");
+  transition: 0.3s;
+}
+
 /*---------------- top ----------------*/
 
 .top {
@@ -17,11 +143,12 @@ body {
 }
 
 .top h1 {
-  font-size: 48px;
+  font-size: 46px;
   color: white;
   font-weight: bold;
   height: 62px;
   line-height: 62px;
+  text-align: center;
 }
 
 /*---------------- main ----------------*/
@@ -32,6 +159,7 @@ body {
   width: 86%;
   margin: 0 auto;
   overflow: hidden;
+  padding: 40px 48px 20px 48px;
 }
 
 .main ul {
@@ -40,7 +168,7 @@ body {
 .main-li {
   border: 1px solid black;
   height: 400px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   background-color: white;
 }
 
@@ -133,7 +261,7 @@ body {
 }
 
 .left-li3 {
-  background-image: url("../img/前端作業/踩盾滑行.png");
+  background-image: url("../img/前端作業/踩盾滑行2.png");
   width: 56%;
 }
 
@@ -175,8 +303,13 @@ body {
 }
 
 /* ---底部nav--- */
+.nav-b {
+  height: 60px;
+}
 .bot-n {
-  margin-top: 20px;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
 }
 
 .bot-n ul {
@@ -184,8 +317,20 @@ body {
   box-shadow: 1px 1px 3px;
 }
 
+.bot-n ul li:nth-child(4) a {
+  border-bottom: 3px solid red;
+}
+
+.bot-n ul li:nth-child(4) div {
+  background-image: url("../icon/angles-rightred-solid-removebg-preview.png");
+}
+
+.bot-n ul li:nth-child(4) a h3 {
+  color: red;
+}
+
 .bot-n li {
-  height: 90px;
+  height: 60px;
   background-color: rgb(255, 255, 255);
   border-bottom: 1px solid rgb(126, 126, 126);
   position: relative;
@@ -196,10 +341,10 @@ body {
 }
 
 .bot-n-label {
-  width: 18px;
-  height: 18px;
+  width: 12px;
+  height: 12px;
   position: absolute;
-  top: 34px;
+  top: 22px;
   left: 42px;
   background-image: url("../icon/angles-right-solid-removebg-preview.png");
   background-repeat: no-repeat;
@@ -207,20 +352,21 @@ body {
 }
 
 .nav a {
-  font-size: 20px;
+  font-size: 18px;
   display: block;
   text-align: center;
   text-decoration: none;
-  height: 90px;
-  line-height: 90px;
+  height: 59px;
+  line-height: 59px;
 }
 
 .nav h3 {
   color: black;
-  height: 78px;
+  height: 59px;
 }
 
 .logo {
+  /* background-image: url("../img/前端作業/new2-removebg-preview.png"); */
   background-repeat: no-repeat;
   width: 100px;
   flex-grow: 1.1;
@@ -231,8 +377,8 @@ body {
 }
 
 .img-logo {
-  width: 100px;
-  height: 10%;
+  width: 90px;
+  height: 59px;
   padding-left: 30px;
 }
 
@@ -240,7 +386,6 @@ body {
 .nav:hover h3 {
   color: red;
   font-weight: bold;
-  border-bottom: 1px solid red;
 }
 
 .bot-n li:hover .bot-n-label {
@@ -249,8 +394,8 @@ body {
 
 /*---------------- footer ----------------*/
 .footer {
-  height: 160px;
-
+  height: 136px;
+  /* margin-top: 60px; */
   background-color: rgb(154, 154, 154);
   padding: 10px;
   padding-left: 30px;
@@ -258,7 +403,7 @@ body {
 }
 .footer p {
   color: white;
-  line-height: 1.4;
+  line-height: 1.1;
 }
 
 .footer ul {
@@ -281,7 +426,7 @@ body {
 }
 
 .f-t {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
   padding-bottom: 4px;
 }
 

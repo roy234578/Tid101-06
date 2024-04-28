@@ -15,31 +15,62 @@
     />
 
     <link rel="stylesheet" href="./css/skill.css" />
+    <link rel="stylesheet" href="./css/ham.css" />
+    <link rel="stylesheet" href="./css/navRWD.css" />
+    <link rel="stylesheet" href="./css/skillRWD.css" />
+    <link rel="stylesheet" href="./css/footerRWD.css" />
   </head>
   <body>
-    <!---------------------- top ---------------------->
-    <div class="top">
-      <div class="top-bg"></div>
-      <h1>能力介紹</h1>
-      <h1 class="top-text">用全新的能力</h1>
-      <h1 class="top-text2">開創出前進的道路</h1>
-    </div>
-    <!---------------------- main ---------------------->
-    <div class="main">
-      <ul>
-        <li class="label1">
-          <a href="skill01.html"><h2>究極手</h2></a>
-        </li>
-        <li class="label2">
-          <a href=""><h2>餘料建造</h2></a>
-        </li>
-        <li class="label3">
-          <a href=""><h2>倒轉乾坤</h2></a>
-        </li>
-        <li class="label4">
-          <a href=""><h2>通天術</h2></a>
-        </li>
-      </ul>
+    <!-------------------------- 漢堡nav -------------------------->
+
+    <button id="hamicon1" class="hamicon i1"></button>
+    <button id="hamicon2" class="hamicon i2"></button>
+    <div id="hamburger" class="hamburger">
+      <div class="ham-bor">
+        <div class="ham-nav">
+          <a class="ham-Logo" href="index.html">
+            <img src="./img/標籤/newLogo.png" alt="" />
+          </a>
+
+          <ul>
+            <li class="ham-li">
+              <a class="ham-a hstory" href="story.html">
+                <h1>故事&角色</h1>
+              </a>
+            </li>
+
+            <li class="ham-li">
+              <a class="ham-a hexplore" href="explore.html">
+                <h1>探索世界</h1>
+              </a>
+            </li>
+
+            <li class="ham-li">
+              <a class="ham-a hmove" href="move.html">
+                <h1>移動道具</h1>
+              </a>
+            </li>
+
+            <li class="ham-li">
+              <a class="ham-a hskill" href="skill.html">
+                <h1>特殊能力</h1>
+              </a>
+            </li>
+
+            <li class="ham-li">
+              <a class="ham-a hnews" href="news.html">
+                <h1>最新消息</h1>
+              </a>
+            </li>
+
+            <li class="ham-li">
+              <a class="ham-a hprice" href="price.html">
+                <h1>商品資訊</h1>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
 
     <!---------------------- nav ---------------------->
@@ -81,6 +112,98 @@
         </li>
       </ul>
     </div>
+    <div class="nav-be"></div>
+    <!---------------------- top ---------------------->
+    <div class="top">
+      <!-- <div class="top-bg"></div> -->
+      <h1>【能力介紹】</h1>
+      <h1 class="top-text">全新的4種能力</h1>
+      <h1 class="top-text3">每種能力都有不同的特色</h1>
+      <h1 class="top-text4">分析狀況靈活運用</h1>
+      <h1 class="top-text2">開創出新的道路</h1>
+    </div>
+    <!---------------------- main ---------------------->
+    <div class="main">
+      <ul>
+        <!-- <a class="ma" href="skill01.html"> </a> -->
+        <li class="label l1">
+          <div class="labelBg b1">
+            <!-- <video
+              autoplay
+              loop
+              muted
+              class="video v1"
+              src="./img/背景圖2/究極手1.mp4"
+            ></video> -->
+            <a href="skill01.html"><h2>究極手</h2></a>
+          </div>
+        </li>
+
+        <!-- <a class="ma m2" href=""> -->
+        <li class="label l2">
+          <div class="labelBg b2">
+            <a href=""><h2>餘料建造</h2></a>
+          </div>
+        </li>
+        <!-- </a> -->
+
+        <!-- <a class="ma m3" href=""> -->
+        <li class="label l3">
+          <div class="labelBg b3">
+            <a href=""><h2>倒轉乾坤</h2></a>
+          </div>
+        </li>
+        <!-- </a> -->
+
+        <!-- <a class="ma m4" href=""> -->
+        <li class="label l4">
+          <div class="labelBg b4">
+            <a href=""><h2>通天術</h2></a>
+          </div>
+        </li>
+        <!-- </a> -->
+      </ul>
+    </div>
+
+    <!---------------------- nav ---------------------->
+
+    <!-- <div class="bot-n">
+      <ul>
+        <li class="logo">
+          <a href="index.html">
+            <img
+              class="img-logo"
+              src="./img/前端作業/new2-removebg-preview.png"
+              alt=""
+            />
+          </a>
+        </li>
+        <li class="nav">
+          <div class="bot-n-label"></div>
+          <a href="story.html"><h3>故事&角色</h3></a>
+        </li>
+        <li class="nav">
+          <div class="bot-n-label"></div>
+          <a href="explore.html"><h3>探索世界</h3></a>
+        </li>
+        <li class="nav">
+          <div class="bot-n-label"></div>
+          <a href="move.html"><h3>移動道具</h3></a>
+        </li>
+        <li class="nav">
+          <div class="bot-n-label"></div>
+          <a href="skill.html"><h3>特殊能力</h3></a>
+        </li>
+        <li class="nav">
+          <div class="bot-n-label"></div>
+          <a href="news.html"><h3>最新消息</h3></a>
+        </li>
+        <li class="nav">
+          <div class="bot-n-label"></div>
+          <a href="price.html"><h3>商品資訊</h3></a>
+        </li>
+      </ul>
+    </div> -->
 
     <!---------------------- footer ---------------------->
     <footer class="footer">
@@ -97,5 +220,7 @@
         參考資料來源:https://www.nintendo.com.hk/switch/zelda_botw/discovery/index.html
       </p>
     </footer>
+
+    <script src="./js/ham.js"></script>
   </body>
 </html>

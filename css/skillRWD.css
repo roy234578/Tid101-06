@@ -1,0 +1,324 @@
+/*---------------- 漢堡nav ----------------*/
+@media screen and (max-width: 750px) {
+  .hamicon {
+    display: block;
+  }
+
+  .nav-be {
+    display: none;
+  }
+}
+
+/*---------------- top ----------------*/
+@media screen and (max-width: 750px) {
+  .top h1 {
+    font-size: 58px;
+    margin-left: -20px;
+  }
+
+  .top .top-text {
+    width: 460px;
+    left: -55px;
+    font-size: 26px;
+    top: 210px;
+  }
+  .top .top-text3 {
+    width: 460px;
+    left: 7px;
+    font-size: 26px;
+    top: 248px;
+  }
+  .top .top-text4 {
+    width: 460px;
+    left: -35px;
+    font-size: 26px;
+    top: 288px;
+  }
+
+  .top .top-text2 {
+    width: 460px;
+    left: -47px;
+    top: 325px;
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .top {
+    height: 420px;
+  }
+
+  .top h1 {
+    font-size: 42px;
+    margin-left: -71px;
+  }
+
+  .top .top-text {
+    width: 460px;
+    left: -55px;
+    font-size: 21px;
+    top: 210px;
+  }
+  .top .top-text3 {
+    width: 460px;
+    left: -8px;
+    font-size: 21px;
+    top: 248px;
+  }
+  .top .top-text4 {
+    width: 460px;
+    left: -39px;
+    font-size: 21px;
+    top: 288px;
+  }
+
+  .top .top-text2 {
+    width: 460px;
+    left: -50px;
+    top: 325px;
+    font-size: 21px;
+  }
+}
+
+@media screen and (max-width: 431px) {
+  .top {
+    background-position: 40%;
+  }
+  .top h1 {
+    margin-left: -80px;
+  }
+}
+
+/*---------------- main ----------------*/
+
+@media screen and (max-width: 1300px) {
+  .main ul {
+    margin-top: 140px;
+    height: 1600px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .main h2 {
+    font-size: 74px;
+  }
+
+  .main ul {
+    margin-top: 130px;
+    height: 1460px;
+  }
+
+  .main li:hover h2 {
+    font-size: 79px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .main h2 {
+    font-size: 68px;
+  }
+
+  .main ul {
+    margin-top: 120px;
+    height: 1390px;
+  }
+
+  .main li:hover h2 {
+    font-size: 73px;
+  }
+
+  .label.l2 {
+    top: 31vw;
+  }
+
+  .label.l2:hover {
+    top: calc(31vw - 40px);
+  }
+
+  .label.l3 {
+    top: 62vw;
+  }
+
+  .label.l3:hover {
+    top: calc(62vw - 40px);
+  }
+
+  .label.l4 {
+    top: 93vw;
+  }
+
+  .label.l4:hover {
+    top: calc(93vw - 40px);
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .main ul {
+    margin-top: 110px;
+    height: 1300px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .main h2 {
+    font-size: 62px;
+  }
+
+  .main ul {
+    margin-top: 100px;
+    height: 1160px;
+  }
+
+  .main li:hover h2 {
+    font-size: 67px;
+  }
+
+  .labelBg.b1 h2 {
+    padding-left: 56vw;
+  }
+
+  .labelBg.b3 h2 {
+    padding-left: 49vw;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .main ul {
+    margin-top: 88px;
+    height: 1040px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .label {
+    height: 40vw;
+    width: 95vw;
+  }
+
+  .main ul {
+    margin-top: 88px;
+    height: 1400px;
+  }
+
+  .labelBg {
+    height: 40vw;
+    width: 95vw;
+  }
+
+  .label.l1 {
+    left: 74px;
+  }
+
+  .label.l2 {
+    top: 43vw;
+    left: 46px;
+  }
+
+  .label.l3 {
+    top: 86vw;
+    left: 18px;
+  }
+
+  .label.l4 {
+    top: 129vw;
+    left: -10px;
+  }
+
+  .label.l1:hover {
+    filter: drop-shadow(0px 0px black);
+    top: -25px;
+    left: 25px;
+  }
+
+  .label.l2:hover {
+    filter: drop-shadow(0px 0px black);
+    top: calc(31vw - -28px);
+    left: -5px;
+  }
+
+  .label.l3:hover {
+    filter: drop-shadow(0px 0px black);
+    top: calc(62vw - -78px);
+    left: -14px;
+  }
+
+  .label.l4:hover {
+    filter: drop-shadow(0px 0px black);
+    top: calc(93vw - -134px);
+    left: -33px;
+  }
+
+  .ma {
+    height: 40vw;
+    width: 95vw;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+  }
+  .m2 {
+    top: 43vw;
+  }
+
+  .m3 {
+    top: 86vw;
+  }
+
+  .m2 {
+    top: 129vw;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .main ul {
+    margin-top: 88px;
+    height: 1200px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .main ul {
+    margin-top: 88px;
+    height: 1040px;
+  }
+}
+
+@media screen and (max-width: 431px) {
+  .main ul {
+    margin-top: 88px;
+    height: 860px;
+  }
+
+  .label.l1 {
+    left: 30px;
+  }
+
+  .label.l2 {
+    top: 43vw;
+    left: 14px;
+  }
+
+  .label.l3 {
+    top: 86vw;
+    left: -3px;
+  }
+
+  .label.l4 {
+    top: 129vw;
+    left: -19px;
+  }
+
+  .main h2 {
+    font-size: 47px;
+  }
+
+  .main li:hover h2 {
+    font-size: 48px;
+  }
+  .labelBg.b2 h2 {
+    padding-left: 197px;
+  }
+
+  .labelBg.b4 h2 {
+    padding-left: 232px;
+  }
+}
