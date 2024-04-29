@@ -321,4 +321,66 @@
   .labelBg.b4 h2 {
     padding-left: 232px;
   }
+
+  .skill1-top h1 {
+    font-size: 35px;
+    top: -30px;
+  }
+
+  .skill1-top {
+    padding-left: 24px;
+  }
+
+  .skill1-main {
+    flex-direction: column;
+  }
+
+  .skill1-video {
+    width: 90%;
+    margin-bottom: 300px;
+  }
+
+  .skill1-right {
+    width: 90%;
+  }
+
+  .skill1-bottom {
+    flex-direction: column;
+  }
+
+  .skill1-bottom p {
+    width: 80%;
+    font-size: 18px;
+  }
+
+  .skill1-bottom-p {
+    position: absolute;
+    top: 510px;
+  }
+
+  .skill1-video iframe {
+    height: 40vw;
+  }
+
+  .skill1-video {
+    height: 41vw;
+    margin-bottom: 175px;
+  }
+
+  .skill1-right-bg {
+    height: 40vw;
+    background-position: center center;
+  }
+
+  .skill1-right {
+    height: 41vw;
+  }
+  .skill-nav {
+    /* flex-wrap: wrap; */
+  }
+
+  .skill-nav {
+    width: 247px;
+    height: 132px;
+  }
 }

@@ -1077,12 +1077,15 @@ body {
 }
 
 .c-t {
-  width: 60px;
-  height: 54px;
+  /* width: 60px;
+  height: 54px; */
   border: 1px solid black;
   margin-top: 500px;
   margin-left: 100px;
   padding-top: 6px;
+  position: absolute;
+  bottom: 80px;
+  right: 40px;
 }
 
 .comeback-top {
@@ -1100,8 +1103,8 @@ body {
   text-align: center;
   padding-top: 6px;
   font-size: 22px;
-  width: 40px;
-  height: 20px;
+  width: 48px;
+  height: 36px;
   line-height: 20px;
   margin: 0 auto;
 

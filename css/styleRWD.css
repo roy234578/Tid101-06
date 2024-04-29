@@ -154,7 +154,7 @@
   }
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 431px) {
   .date .date1 {
     font-size: 34px;
   }
@@ -260,7 +260,7 @@
   }
 
   .Top {
-    margin-bottom: 100px;
+    margin-bottom: 64px;
   }
 }
 
@@ -511,14 +511,32 @@
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 800px) {
   .arrow-right {
-    top: 30.9vw;
-    right: 8.6vw;
+    top: 18.3vw;
+    right: 7.6vw;
   }
 
   .arrow-right.explore {
-    left: 9vw;
+    left: 8vw;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .arrow-right {
+    top: 30.9vw;
+    right: 6.6vw;
+  }
+
+  .arrow-right.explore {
+    left: 8vw;
+  }
+  .arrow-bg {
+    background-repeat: no-repeat;
+  }
+  .arrow-right {
+    width: 3.5vw;
+    height: 3.5vw;
   }
 }
 
@@ -568,7 +586,7 @@
   }
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 431px) {
   .text h1 {
     font-size: 29px;
   }
@@ -579,6 +597,19 @@
 
   .text .h1-2 {
     font-size: 22.8px;
+  }
+
+  .arrow-right {
+    top: 32.5vw;
+    right: 3.5vw;
+  }
+  .arrow-right.explore {
+    left: 5vw;
+    top: 33vw;
+  }
+
+  .arrow-right.r3 {
+    top: 33.5vw;
   }
 }
 
@@ -614,6 +645,37 @@
 }
 
 /*---------------- 最新消息及商品區 ----------------*/
+
+@media screen and (max-width: 1300px) {
+  .c-t {
+    right: 30px;
+    bottom: 80px;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .c-t {
+    right: 20px;
+    bottom: 60px;
+  }
+
+  .c-t a {
+    width: 44px;
+    height: 34px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .c-t {
+    right: 20px;
+    bottom: 60px;
+  }
+
+  .c-t a {
+    width: 44px;
+    height: 34px;
+  }
+}
 
 @media screen and (max-width: 860px) {
   .bot-Li {
@@ -715,7 +777,7 @@
   }
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 431px) {
   .main-bottom-h1 h1 {
     font-size: 31px;
     padding-left: 10px;
@@ -901,7 +963,7 @@
   }
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 431px) {
   .footer {
     height: 160px;
   }
