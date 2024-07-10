@@ -1,10 +1,11 @@
 @import url("./reset.css");
 
 body {
-  background-image: url("../img/前端作業/角色背景.jpg");
-  background-size: 100% 100%;
+  /* background-image: url("../img/前端作業/角色背景.jpg"); */
+  /* background-size: 100% 100%; */
   /* background-image: url("../img/背景圖2/link_bg.jpg"); */
-  /* background-image: url("../img/背景圖2/sayagata-400px.png"); */
+
+  background-image: url("../img/背景圖2/sayagata-400px.png");
   a {
     text-decoration: none;
     display: block;
@@ -13,30 +14,45 @@ body {
 
 /*---------------- top ----------------*/
 .top {
-  height: 480px;
+  height: 160px;
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0 auto;
   position: relative;
-  background-image: url("../img/前端作業/林克天空.jpg");
-  background-position: center;
 }
 
 .top h1 {
-  width: 420px;
-  height: 66px;
+  /* width: 420px;
+  height: 66px; */
   line-height: 66px;
   font-size: 64px;
   font-weight: bold;
   color: white;
-  text-align: center;
-  margin-left: 24px;
-  position: absolute;
-  top: 64px;
+  /* text-align: center; */
+
+  /* position: absolute; */
+  /* top: 64px; */
   text-shadow: 1px 1px 5px black;
 }
 
+.toph1 {
+  margin-top: 80px;
+  margin-left: 10vw;
+  position: absolute;
+}
+
+.top div {
+  position: absolute;
+  margin-left: 60vw;
+  margin-top: 120px;
+}
+
 .top .top-text {
+  font-size: 22px;
+  line-height: 46px;
+}
+
+/* .top .top-text {
   width: 460px;
   left: -55px;
   font-size: 28px;
@@ -62,9 +78,9 @@ body {
   left: -47px;
   top: 325px;
   font-size: 28px;
-}
+} */
 
-.top-bg {
+/* .top-bg {
   width: 300px;
   height: 400px;
   background-image: url("../img/前端作業/能力圖7-removebg-preview.png");
@@ -72,7 +88,7 @@ body {
   background-size: 100%;
   position: absolute;
   right: 340px;
-}
+} */
 
 /*---------------- main ----------------*/
 .main {
@@ -82,86 +98,131 @@ body {
 .main ul {
   transform: rotate(-5deg);
   margin-top: 140px;
-  height: 1800px;
+  height: 1400px;
   position: relative;
 }
 
 .main h2 {
-  font-size: 92px;
+  font-size: 80px;
   color: white;
   font-weight: bold;
   text-shadow: 2px 2px 5px black;
-  padding-top: 8.9vw;
+  padding-top: 7vw;
 }
 
 .label {
-  height: 25vw;
-  width: 85vw;
+  height: 20vw;
+  width: 75vw;
   border: 1px solid black;
   position: absolute;
   transform: skew(-15deg);
+  /* transition: transform 0.2s ease, top 0.2s ease, left 0.2s ease,
+    border 0.2s ease, padding 0.2s ease; */
 }
 
 .labelBg {
-  height: 25vw;
-  width: 85vw;
+  height: 20vw;
+  width: 75vw;
   background-size: 100%;
   background-repeat: no-repeat;
 }
 
 .label.l1 {
   left: -10px;
+  top: 0px;
 }
+
+/* .labelBg.b1 {
+  background-image: url("../img/背景圖/究極手.png");
+  background-position: bottom;
+
+  background-size: auto 100%;
+  background: url("../img/標籤/邊框.png") top right no-repeat,
+    url("../img/標籤/邊框-3.png") bottom left no-repeat,
+    url("../img/標籤/邊框-2.png") top left no-repeat,
+    url("../img/標籤/邊框-4.png") bottom right no-repeat,
+    url("../img/背景圖/究極手.png") center center no-repeat;
+  background-color: blue;
+} */
 
 .labelBg.b1 {
-  background-image: url("../img/前端作業/究極手1.jpg");
-  background-position: bottom;
+  position: relative;
+  background-image: url("../img/背景圖/究極手.png"),
+    url("../img/前端作業/337307dec40922c6a6027f39f81fr0m5-removebg-preview.png"),
+    url("../img/背景圖2/link_bg.jpg");
+  background-position: 60% center, 30% center, left center;
+  background-size: auto 80%, auto 100%, cover;
 }
 
+/* .labelBg.b1::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: url("../img/標籤/邊框.png") top right no-repeat,
+    url("../img/標籤/邊框-3.png") bottom left no-repeat,
+    url("../img/標籤/邊框-2.png") top left no-repeat,
+    url("../img/標籤/邊框-4.png") bottom right no-repeat;
+} */
+
 .labelBg.b1 h2 {
-  padding-left: 60vw;
+  padding-left: 54vw;
 }
 
 .label.l2 {
-  top: 29vw;
-  left: 310px;
+  top: 21.2vw;
+  right: -99px;
 }
 
 .labelBg.b2 {
-  background-image: url("../img/前端作業/餘料2.jpg");
-  background-position: center center;
+  position: relative;
+  background-image: url("../img/背景圖/餘料建造.png"),
+    url("../img/背景圖/2643a524d387aa17b8dc5bb3951l9bj5-removebg-preview.png"),
+    url("../img/背景圖2/link_bg.jpg");
+  background-position: 40% center, 90% top, left center;
+  background-size: auto 80%, auto 100%, cover;
 }
 
 .labelBg.b2 h2 {
-  padding-left: 80px;
+  padding-left: 60px;
 }
 
 .label.l3 {
-  top: 58vw;
+  top: 42.4vw;
   left: -70px;
 }
 
 .labelBg.b3 {
-  background-image: url("../img/前端作業/時間1.jpg");
-  background-position: center center;
+  position: relative;
+  background-image: url("../img/背景圖/倒轉乾坤.png"),
+    url("../img/前端作業/0f0fdb64a34c945b4acc4271581l9b55-removebg-preview.png"),
+    url("../img/背景圖2/link_bg.jpg");
+  background-position: 56% center, 20% center, left center;
+  background-size: auto 70%, auto 100%, cover;
 }
 
 .labelBg.b3 h2 {
-  padding-left: 53vw;
+  padding-left: 50vw;
 }
 
 .label.l4 {
-  top: 87vw;
-  left: 240px;
+  top: 63.6vw;
+  right: -45px;
 }
 
 .labelBg.b4 {
-  background-image: url("../img/前端作業/通天術3.jpg");
-  background-position: center center;
+  position: relative;
+  background-image: url("../img/背景圖/通天術.png"),
+    url("../img/前端作業/a8f83a3d44d9cdaf724526287c1l9bu5-removebg-preview.png"),
+    url("../img/背景圖2/link_bg.jpg");
+  background-position: 40% center, 90% top, left center;
+  background-size: auto 80%, auto 100%, cover;
 }
 
 .labelBg.b4 h2 {
-  padding-left: 80px;
+  padding-left: 60px;
 }
 
 /* .video {
@@ -173,44 +234,82 @@ body {
 /* hover */
 
 .main li:hover h2 {
-  text-shadow: 0px 0px 15px white;
-  font-size: 98px;
+  text-shadow: 0px 0px 15px #d56636;
+  font-size: 90px;
+}
+
+.main .l2:hover h2 {
+  text-shadow: 0px 0px 15px #48b1a3;
+  font-size: 90px;
+}
+
+.main .l3:hover h2 {
+  text-shadow: 0px 0px 15px #dda244;
+  font-size: 90px;
+}
+
+.main .l4:hover h2 {
+  text-shadow: 0px 0px 15px #71a464;
+  font-size: 90px;
 }
 
 .label.l1:hover {
   filter: drop-shadow(27px 27px black);
   top: -40px;
   left: -50px;
-  border: 2.5px solid #4b74c4;
+  border: 2.5px solid #d56636;
   padding: 10px;
 }
 
 .label.l2:hover {
   filter: drop-shadow(27px 27px black);
-  top: calc(29vw - 40px);
-  left: 270px;
+  top: calc(21.2vw - 40px);
+  right: -83px;
 
-  border: 2.5px solid #4b74c4;
+  border: 2.5px solid #48b1a3;
   padding: 10px;
 }
 
 .label.l3:hover {
   filter: drop-shadow(27px 27px black);
-  top: calc(58vw - 40px);
+  top: calc(42.4vw - 40px);
   left: -110px;
 
-  border: 2.5px solid #4b74c4;
+  border: 2.5px solid #dda244;
   padding: 10px;
 }
 
 .label.l4:hover {
   filter: drop-shadow(27px 27px black);
-  top: calc(87vw - 40px);
-  left: 200px;
-  border: 2.5px solid #4b74c4;
+  top: calc(63.6vw - 40px);
+  right: -25px;
+  border: 2.5px solid #71a464;
   padding: 10px;
 }
 
+.label.l1:hover .b1 {
+  background-image: url("../img/背景圖/究極手.png"),
+    url("../img/前端作業/337307dec40922c6a6027f39f81fr0m5-removebg-preview.png"),
+    url("../img/背景圖2/link_bg2.png");
+}
+
+.label.l2:hover .b2 {
+  background-image: url("../img/背景圖/餘料建造.png"),
+    url("../img/背景圖/2643a524d387aa17b8dc5bb3951l9bj5-removebg-preview.png"),
+    url("../img/背景圖2/link_bg3-4.png");
+}
+
+.label.l3:hover .b3 {
+  background-image: url("../img/背景圖/倒轉乾坤.png"),
+    url("../img/前端作業/0f0fdb64a34c945b4acc4271581l9b55-removebg-preview.png"),
+    url("../img/背景圖2/link_bg4-6.png");
+}
+
+.label.l4:hover .b4 {
+  background-image: url("../img/背景圖/通天術.png"),
+    url("../img/前端作業/a8f83a3d44d9cdaf724526287c1l9bu5-removebg-preview.png"),
+    url("../img/背景圖2/link_bg5-1.png");
+}
 /* ---底部nav--- */
 .nav-b {
   height: 60px;
@@ -348,12 +447,21 @@ body {
 }
 
 /*---------------- 究極手介紹 ----------------*/
+.skill1topH3 {
+  display: none;
+}
+
+.skill1topH3-2 {
+  display: none;
+}
+
 .skill1-top {
   width: 80%;
   height: 36vw;
   margin: 40px auto;
   padding: 20px 0;
   background-image: url("../img/背景圖/p0025_l.jpg");
+  display: flex;
 }
 
 .skill1-top div {
@@ -363,9 +471,10 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  margin-left: 1.5vw;
+  /* margin-left: 1.5vw; */
   position: relative;
   overflow: hidden;
+  margin: 0 auto;
 }
 
 .sk {
@@ -387,15 +496,15 @@ body {
   font-weight: bold;
   color: white;
   padding: 40px;
-  /* text-shadow: 1px 1px black; */
+  text-shadow: 0px 0px 15px #d56636;
 }
 
 .skill1-top h2 {
   font-size: 34px;
   font-weight: bold;
   color: white;
-  padding-top: 200px;
-  /* padding-left: 800px; */
+  padding-top: 19vw;
+  padding-left: 1vw;
 }
 
 .skill1-main {
@@ -441,7 +550,7 @@ body {
 .skill1-bottom p {
   width: 45%;
   font-size: 24px;
-  color: white;
+  color: black;
 }
 
 .skill1-bottom-p {
@@ -453,23 +562,57 @@ body {
 
 .skill-nav {
   display: flex;
-  width: 70%;
-  margin: 200px 0;
-  margin-left: 15vw;
+  width: 60vw;
+  margin: 0 auto;
+  margin-top: 80px;
+
   margin-bottom: 40px;
+}
+
+.skill-nav > div {
+  flex: 1;
+}
+
+.skill-nav div {
+  margin-right: 5vw;
 }
 
 .skill-nav img {
   object-fit: cover;
-  width: 150px;
-  height: 150px;
+  width: 9.8vw;
+  height: 9.8vw;
+  opacity: 1; /* 初始設置所有圖片正常顯示 */
+  transition: opacity 0.3s ease; /* 平滑過渡不透明度 */
+}
+
+.nav.n2 img {
+  width: 7.2vw;
+}
+
+.skill-nav .nd4 {
+  margin-right: 0;
 }
 
 .skill-nav a {
-  margin-right: 5vw;
+  display: flex;
 }
 
-/* hover */
-.skill-nav a :hover {
-  outline: 3px solid red;
+.skill-nav a img {
+  margin: 0 auto;
 }
+
+/* .skill-nav .n1 {
+  box-shadow: 0.1px 0.1px 10px rgb(178, 25, 25);
+
+  display: flex;
+  background: url("../img/背景圖2/link_bg2-1.png");
+}
+
+.skill-nav .n1 img {
+  margin: 0 auto;
+} */
+
+/* hover */
+/* .skill-nav a :hover {
+  outline: 3px solid red;
+} */

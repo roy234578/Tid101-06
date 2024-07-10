@@ -14,8 +14,13 @@
       referrerpolicy="no-referrer"
     />
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <link rel="stylesheet" href="./css/style2.css" />
     <link rel="stylesheet" href="./css/styleRWD.css" />
+    <link rel="stylesheet" href="./css/footerRWD.css" />
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </head>
   <body>
     <!-------------------------- 漢堡nav -------------------------->
@@ -163,7 +168,7 @@
 
     <!---------------------- 中間內容區 ---------------------->
     <div class="main-top">
-      <section class="section story">
+      <section class="section story" data-aos="fade-left">
         <div class="label story">
           <div class="lbg story"></div>
         </div>
@@ -188,7 +193,7 @@
         </div>
       </section>
 
-      <section class="section">
+      <section class="section" data-aos="fade-right">
         <div class="label explore">
           <div class="lbg explore"></div>
         </div>
@@ -211,7 +216,7 @@
         </div>
       </section>
 
-      <section class="section move">
+      <section class="section move" data-aos="fade-left">
         <div class="label move">
           <div class="lbg move"></div>
         </div>
@@ -233,7 +238,7 @@
         </div>
       </section>
 
-      <section class="section skill">
+      <section class="section skill" data-aos="zoom-in">
         <div class="label skill">
           <div class="lbg skill"></div>
         </div>
@@ -472,6 +477,12 @@
         , https://www.nintendo.com.hk/zelda/totk/index.html
       </p>
     </footer>
+
+    <script>
+      AOS.init({
+        duration: 800,
+      });
+    </script>
 
     <script>
       const hamicon = document.querySelector("#hamicon1");

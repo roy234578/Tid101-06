@@ -10,17 +10,60 @@
 }
 
 /*---------------- top ----------------*/
-@media screen and (max-width: 750px) {
-  .top h1 {
-    font-size: 58px;
-    margin-left: -20px;
+
+@media screen and (max-width: 1100px) {
+  .top div {
+    margin-left: 54vw;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .top div {
+    margin-left: 50vw;
+  }
+  .top .toph1 {
+    font-size: 52px;
   }
 
   .top .top-text {
-    width: 460px;
+    margin-right: 3vw;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .top div {
+    margin-left: 46vw;
+  }
+  .top .toph1 {
+    font-size: 50px;
+  }
+
+  .top .top-text {
+    margin-right: 3vw;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .top {
+    margin-bottom: 6vw;
+  }
+
+  .top h1 {
+    font-size: 46px;
+    margin-left: 3vw;
+  }
+  .top div {
+    margin-top: 130px;
+    margin-left: 40vw;
+  }
+
+  .top .top-text {
+    /* width: 460px; */
     left: -55px;
-    font-size: 26px;
+    font-size: 20px;
     top: 210px;
+    margin-right: 3vw;
   }
   .top .top-text3 {
     width: 460px;
@@ -43,21 +86,29 @@
   }
 }
 
-@media screen and (max-width: 600px) {
-  .top {
-    height: 420px;
+@media screen and (max-width: 700px) {
+  .top div {
+    margin-left: 3vw;
+    margin-top: 150px;
   }
-
-  .top h1 {
-    font-size: 42px;
-    margin-left: -71px;
+  .top .toph1 {
   }
 
   .top .top-text {
-    width: 460px;
-    left: -55px;
-    font-size: 21px;
-    top: 210px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .top {
+    margin-bottom: 14vw;
+  }
+
+  .top h1 {
+    font-size: 36px;
+  }
+
+  .top .top-text {
+    font-size: 18px;
   }
   .top .top-text3 {
     width: 460px;
@@ -82,14 +133,47 @@
 
 @media screen and (max-width: 431px) {
   .top {
-    background-position: 40%;
   }
   .top h1 {
-    margin-left: -80px;
+  }
+
+  .toph1 {
+    margin-top: 50px;
+  }
+
+  .top .top-text {
+    font-size: 18px;
+  }
+
+  .top div {
+    margin-top: 110px;
+    margin-left: 4vw;
   }
 }
 
 /*---------------- main ----------------*/
+
+@media screen and (max-width: 1400px) {
+  .main h2 {
+    font-size: 70px;
+  }
+
+  .main li:hover h2 {
+    font-size: 78px;
+  }
+
+  .main .l2:hover h2 {
+    font-size: 78px;
+  }
+
+  .main .l3:hover h2 {
+    font-size: 78px;
+  }
+
+  .main .l4:hover h2 {
+    font-size: 78px;
+  }
+}
 
 @media screen and (max-width: 1300px) {
   .main ul {
@@ -100,7 +184,7 @@
 
 @media screen and (max-width: 1200px) {
   .main h2 {
-    font-size: 74px;
+    font-size: 64px;
   }
 
   .main ul {
@@ -109,13 +193,25 @@
   }
 
   .main li:hover h2 {
-    font-size: 79px;
+    font-size: 70px;
+  }
+
+  .main .l2:hover h2 {
+    font-size: 70px;
+  }
+
+  .main .l3:hover h2 {
+    font-size: 70px;
+  }
+
+  .main .l4:hover h2 {
+    font-size: 70px;
   }
 }
 
 @media screen and (max-width: 1100px) {
   .main h2 {
-    font-size: 68px;
+    font-size: 58px;
   }
 
   .main ul {
@@ -124,31 +220,41 @@
   }
 
   .main li:hover h2 {
-    font-size: 73px;
+    font-size: 64px;
   }
 
-  .label.l2 {
-    top: 31vw;
+  .main .l2:hover h2 {
+    font-size: 64px;
   }
 
-  .label.l2:hover {
-    top: calc(31vw - 40px);
+  .main .l3:hover h2 {
+    font-size: 64px;
   }
 
-  .label.l3 {
-    top: 62vw;
+  .main .l4:hover h2 {
+    font-size: 64px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .main h2 {
+    font-size: 54px;
   }
 
-  .label.l3:hover {
-    top: calc(62vw - 40px);
+  .main li:hover h2 {
+    font-size: 60px;
   }
 
-  .label.l4 {
-    top: 93vw;
+  .main .l2:hover h2 {
+    font-size: 60px;
   }
 
-  .label.l4:hover {
-    top: calc(93vw - 40px);
+  .main .l3:hover h2 {
+    font-size: 60px;
+  }
+
+  .main .l4:hover h2 {
+    font-size: 60px;
   }
 }
 
@@ -161,7 +267,7 @@
 
 @media screen and (max-width: 900px) {
   .main h2 {
-    font-size: 62px;
+    font-size: 46px;
   }
 
   .main ul {
@@ -170,22 +276,46 @@
   }
 
   .main li:hover h2 {
-    font-size: 67px;
+    font-size: 50px;
   }
 
-  .labelBg.b1 h2 {
-    padding-left: 56vw;
+  .main .l2:hover h2 {
+    font-size: 50px;
   }
 
-  .labelBg.b3 h2 {
-    padding-left: 49vw;
+  .main .l3:hover h2 {
+    font-size: 50px;
+  }
+
+  .main .l4:hover h2 {
+    font-size: 50px;
   }
 }
 
 @media screen and (max-width: 800px) {
   .main ul {
     margin-top: 88px;
-    height: 1040px;
+    height: 820px;
+  }
+
+  .main h2 {
+    font-size: 40px;
+  }
+
+  .main li:hover h2 {
+    font-size: 44px;
+  }
+
+  .main .l2:hover h2 {
+    font-size: 44px;
+  }
+
+  .main .l3:hover h2 {
+    font-size: 44px;
+  }
+
+  .main .l4:hover h2 {
+    font-size: 44px;
   }
 }
 
@@ -226,25 +356,25 @@
 
   .label.l1:hover {
     filter: drop-shadow(0px 0px black);
-    top: -25px;
+    /* top: -25px; */
     left: 25px;
   }
 
   .label.l2:hover {
     filter: drop-shadow(0px 0px black);
-    top: calc(31vw - -28px);
+    top: calc(33vw - -28px);
     left: -5px;
   }
 
   .label.l3:hover {
     filter: drop-shadow(0px 0px black);
-    top: calc(62vw - -78px);
+    top: calc(68vw - -78px);
     left: -14px;
   }
 
   .label.l4:hover {
     filter: drop-shadow(0px 0px black);
-    top: calc(93vw - -134px);
+    top: calc(104vw - -134px);
     left: -33px;
   }
 
@@ -255,16 +385,145 @@
     z-index: 10;
     top: 0;
   }
-  .m2 {
-    top: 43vw;
+
+  .main h2 {
+    padding-top: 6vw;
+    font-size: 66px;
   }
 
-  .m3 {
-    top: 86vw;
+  .main li:hover h2 {
+    font-size: 70px;
   }
 
-  .m2 {
-    top: 129vw;
+  .main .l2:hover h2 {
+    font-size: 70px;
+  }
+
+  .main .l3:hover h2 {
+    font-size: 70px;
+  }
+
+  .main .l4:hover h2 {
+    font-size: 70px;
+  }
+
+  .labelBg.b1 {
+    background-image: url("../img/背景圖/究極手.png"),
+      url("../img/前端作業/337307dec40922c6a6027f39f81fr0m5-removebg-preview.png"),
+      url("../img/背景圖2/link_bg.jpg");
+    background-position: 72% center, 30% center, left center;
+    background-size: auto 80%, auto 100%, cover;
+  }
+
+  .labelBg.b2 {
+    background-image: url("../img/背景圖/餘料建造.png"),
+      url("../img/背景圖/2643a524d387aa17b8dc5bb3951l9bj5-removebg-preview.png"),
+      url("../img/背景圖2/link_bg.jpg");
+    background-position: 32% center, 180% top, left center;
+    background-size: auto 80%, auto 100%, cover;
+  }
+
+  .labelBg.b3 {
+    background-image: url("../img/背景圖/倒轉乾坤.png"),
+      url("../img/前端作業/0f0fdb64a34c945b4acc4271581l9b55-removebg-preview.png"),
+      url("../img/背景圖2/link_bg.jpg");
+    background-position: 66% center, -40% center, left center;
+    background-size: auto 70%, auto 100%, cover;
+  }
+
+  .labelBg.b4 {
+    background-image: url("../img/背景圖/通天術.png"),
+      url("../img/前端作業/a8f83a3d44d9cdaf724526287c1l9bu5-removebg-preview.png"),
+      url("../img/背景圖2/link_bg.jpg");
+    background-position: 34% center, 158% top, left center;
+    background-size: auto 80%, auto 100%, cover;
+  }
+
+  .label h2 {
+    width: 90px;
+  }
+
+  .labelBg.b1 h2 {
+    padding-left: 78vw;
+  }
+
+  .labelBg.b2 h2 {
+    padding-top: 2vw;
+  }
+
+  .labelBg.b3 h2 {
+    padding-left: 78vw;
+    padding-top: 2vw;
+  }
+
+  .labelBg.b4 h2 {
+    /* padding-left: 78vw; */
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .main h2 {
+    font-size: 60px;
+  }
+
+  .main li:hover h2 {
+    font-size: 64px;
+  }
+
+  .main .l2:hover h2 {
+    font-size: 64px;
+  }
+
+  .main .l3:hover h2 {
+    font-size: 64px;
+  }
+
+  .main .l4:hover h2 {
+    font-size: 64px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .main h2 {
+    font-size: 56px;
+  }
+
+  .main li:hover h2 {
+    font-size: 60px;
+  }
+
+  .main .l2:hover h2 {
+    font-size: 60px;
+  }
+
+  .main .l3:hover h2 {
+    font-size: 60px;
+  }
+
+  .main .l4:hover h2 {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main h2 {
+    font-size: 50px;
+  }
+
+  .main li:hover h2 {
+    font-size: 54px;
+  }
+
+  .main .l2:hover h2 {
+    font-size: 54px;
+  }
+
+  .main .l3:hover h2 {
+    font-size: 54px;
+  }
+
+  .main .l4:hover h2 {
+    font-size: 54px;
   }
 }
 
@@ -283,9 +542,35 @@
 }
 
 @media screen and (max-width: 431px) {
+  .label.l1:hover {
+    filter: drop-shadow(0px 0px black);
+    top: 0px;
+    left: 30px;
+    padding: 0px;
+  }
+  .label.l2:hover {
+    filter: drop-shadow(0px 0px black);
+    top: 43vw;
+    left: 14px;
+    padding: 0px;
+  }
+
+  .label.l3:hover {
+    filter: drop-shadow(0px 0px black);
+    top: 86vw;
+    left: -3px;
+    padding: 0px;
+  }
+  .label.l4:hover {
+    filter: drop-shadow(0px 0px black);
+    top: 129vw;
+    left: -19px;
+    padding: 0px;
+  }
+
   .main ul {
-    margin-top: 88px;
-    height: 860px;
+    margin-top: 24px;
+    height: 770px;
   }
 
   .label.l1 {
@@ -322,13 +607,48 @@
     padding-left: 232px;
   }
 
+  .main h2 {
+    font-size: 34px;
+    width: 50px;
+  }
+
+  .main li:hover h2 {
+    font-size: 46px;
+  }
+
+  .main .l2:hover h2 {
+    font-size: 46px;
+  }
+
+  .main .l3:hover h2 {
+    font-size: 46px;
+  }
+
+  .main .l4:hover h2 {
+    font-size: 46px;
+  }
+
+  .labelBg.b1 h2 {
+    padding-left: 78vw;
+  }
+
+  .labelBg.b2 h2 {
+    padding-top: 2vw;
+    padding-left: 8vw;
+  }
+
+  .labelBg.b3 h2 {
+    padding-left: 78vw;
+    padding-top: 2vw;
+  }
+
+  .labelBg.b4 h2 {
+    padding-left: 8vw;
+  }
+
   .skill1-top h1 {
     font-size: 35px;
     top: -30px;
-  }
-
-  .skill1-top {
-    padding-left: 24px;
   }
 
   .skill1-main {
@@ -353,9 +673,13 @@
     font-size: 18px;
   }
 
+  .skill1-bottom .p-2 {
+    width: 100%;
+  }
+
   .skill1-bottom-p {
     position: absolute;
-    top: 510px;
+    top: 624px;
   }
 
   .skill1-video iframe {
@@ -382,5 +706,157 @@
   .skill-nav {
     width: 247px;
     height: 132px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .skill1-top h1 {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .skill1-top h1 {
+    font-size: 48px;
+  }
+
+  .skill1-top h2 {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .skill1-top h1 {
+    font-size: 36px;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+
+  .skill1-top h2 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .skill1-top h1 {
+    font-size: 28px;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+
+  .skill1-top h2 {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 431px) {
+  .skill1-top {
+    margin-top: 12px;
+  }
+
+  .skill1-top h1 {
+    display: none;
+  }
+
+  .skill1-top h2 {
+    display: none;
+  }
+
+  .skill1topH3 {
+    display: block;
+    padding-top: 60px;
+    margin-left: 7vw;
+    font-size: 32px;
+    color: #d56636;
+    text-shadow: 0px 0px 15px #d56636;
+  }
+
+  .skill1topH3-2 {
+    display: block;
+    margin-top: 12px;
+    margin-left: 7vw;
+  }
+}
+@media screen and (max-width: 900px) {
+  .skill1-main {
+    flex-direction: column;
+  }
+
+  .skill1-video {
+    margin-right: 0;
+    width: 90%;
+    margin-bottom: 18px;
+  }
+
+  .skill1-right {
+    width: 90%;
+  }
+
+  .skill1-bottom {
+    flex-direction: column;
+  }
+
+  .skill1-bottom p {
+    width: 80%;
+    font-size: 18px;
+  }
+
+  .skill1-bottom .p-2 {
+    width: 100%;
+  }
+
+  .skill1-bottom-p {
+    display: none;
+  }
+
+  .skill1-video iframe {
+    height: 40vw;
+  }
+
+  .skill1-video {
+    height: 41vw;
+  }
+
+  .skill1-right-bg {
+    height: 40vw;
+    background-position: center center;
+  }
+
+  .skill1-right {
+    height: 41vw;
+  }
+
+  .skill1-videoP {
+    margin-bottom: 30px;
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 431px) {
+  .skill-nav img {
+    width: 16vw;
+    height: 16vw;
+  }
+
+  .nav.n2 img {
+    width: 12vw;
+  }
+
+  .skill-nav {
+    width: 80vw;
+    margin: 0 auto;
+    margin-top: 80px;
+
+    margin-bottom: 0px;
+  }
+
+  .skill1-top div {
+    height: 100%;
+    width: 90%;
+  }
+
+  .skill1-top {
+    width: 100%;
+    height: 100%;
   }
 }

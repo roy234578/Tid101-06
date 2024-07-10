@@ -113,6 +113,8 @@
     </div>
     <div class="nav-b"></div>
     <!---------------------- top ---------------------->
+    <h3 class="skill1topH3">究極手</h3>
+    <h3 class="skill1topH3-2">「抓取」物品，「黏合」在一起</h3>
     <div class="skill1-top">
       <div>
         <video
@@ -140,6 +142,10 @@
           allowfullscreen
         ></iframe>
       </div>
+      <p class="skill1-videoP">
+        只要是能用究極手「抓取」的物品，任何東西都能黏在一起。<br />
+        除了在抓取狀態下上下推動R操控搖桿可調整高度之外，在按住R鍵的狀態下操作方向鍵也能縱向或橫向旋轉物品。
+      </p>
       <div class="skill1-right">
         <div class="skill1-right-bg"></div>
       </div>
@@ -149,7 +155,7 @@
         只要是能用究極手「抓取」的物品，任何東西都能黏在一起。<br />
         除了在抓取狀態下上下推動R操控搖桿可調整高度之外，在按住R鍵的狀態下操作方向鍵也能縱向或橫向旋轉物品。
       </p>
-      <p>
+      <p class="p-2">
         將物品互相搭配之後，或許就能解開某些機關或找到新的前進路線。<br />
         黏住物品可以自由拆除，失敗的時候請重試一次。
       </p>
@@ -157,24 +163,24 @@
 
     <!---------------------- skill-nav ---------------------->
     <div class="skill-nav">
-      <div>
+      <div class="nd1">
         <a class="nav n1" href="#"
-          ><img src="./img/前端作業/究極手1.jpg" alt=""
+          ><img src="./img/背景圖/究極手.png" alt=""
         /></a>
       </div>
-      <div>
+      <div class="nd2">
         <a class="nav n2" href="skill02.html"
-          ><img src="./img/前端作業/餘料2.jpg" alt=""
+          ><img src="./img/背景圖/餘料建造.png" alt=""
         /></a>
       </div>
-      <div>
+      <div class="nd3">
         <a class="nav n3" href="skill03.html"
-          ><img src="./img/前端作業/時間1.jpg" alt=""
+          ><img src="./img/背景圖/倒轉乾坤.png" alt=""
         /></a>
       </div>
-      <div>
-        <a class="nav n4" href="skill03.html"
-          ><img src="./img/前端作業/通天術3.jpg" alt=""
+      <div class="nd4">
+        <a class="nav n4" href="skill04.html"
+          ><img src="./img/背景圖/通天術.png" alt=""
         /></a>
       </div>
     </div>
@@ -234,6 +240,29 @@
         參考資料來源:https://www.nintendo.com.hk/switch/zelda_botw/discovery/index.html
       </p>
     </footer>
+
+    <script>
+      const navItems = document.querySelectorAll(".skill-nav .nav");
+
+      // 为每个 .nav 元素添加鼠标悬停事件监听器
+      navItems.forEach((nav) => {
+        nav.addEventListener("mouseenter", () => {
+          // 当鼠标悬停在任何 .nav 元素上时，将除当前悬停元素外的其他元素的不透明度设为 0.5
+          navItems.forEach((item) => {
+            if (item !== nav) {
+              item.style.opacity = "0.5";
+            }
+          });
+        });
+
+        nav.addEventListener("mouseleave", () => {
+          // 当鼠标离开任何 .nav 元素时，将所有 .nav 元素的不透明度恢复为 1
+          navItems.forEach((item) => {
+            item.style.opacity = "1";
+          });
+        });
+      });
+    </script>
 
     <script src="./js/ham.js"></script>
   </body>

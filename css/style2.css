@@ -2,6 +2,7 @@
 
 body {
   background-image: url("../img/背景圖2/sayagata-400px.png");
+  overflow-x: hidden;
   a {
     text-decoration: none;
     display: block;

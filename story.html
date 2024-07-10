@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>個專作品</title>
 
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="
     <link
       rel="stylesheet"
@@ -115,22 +119,44 @@
     </div>
     <div class="nav-b"></div>
     <!---------------------- top ---------------------->
-    <div class="top">
-      <div class="top-title"><h1>故事背景介紹</h1></div>
-      <div class="top-text">
-        <p class="p-1">正在復興當中的海拉魯大地突然發生了新的問題。</p>
-        <p class="p-2">
-          那就是從地底冒出的「瘴氣」，讓各地到處接二連三的產生異變。
-        </p>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="top swiper-slide">
+          <div class="top-title"><h1>故事背景介紹</h1></div>
+          <div class="top-text">
+            <p class="p-1">正在復興當中的海拉魯大地突然發生了新的問題。</p>
+            <p class="p-2">
+              那就是從地底冒出的「瘴氣」，讓各地到處接二連三的產生異變。
+            </p>
 
-        <p class="p-3">而瘴氣的來源，就在海拉魯城的地底。</p>
-        <p class="p-4">於是薩爾達公主，便帶著驅除了災厄的勇者林克，</p>
-        <p class="p-5">前往海拉魯城地底開始調查。</p>
+            <p class="p-3">而瘴氣的來源，就在海拉魯城的地底。</p>
+            <p class="p-4">於是薩爾達公主，便帶著驅除了災厄的勇者林克，</p>
+            <p class="p-5">前往海拉魯城地底開始調查。</p>
 
-        <p class="p-6">
-          海拉魯遭遇了突如其來的天地異變，主角林克再次被捲入無盡的冒險之中。
-        </p>
+            <p class="p-6">
+              海拉魯遭遇了突如其來的天地異變，主角林克再次被捲入無盡的冒險之中。
+            </p>
+          </div>
+        </div>
+
+        <div class="top swiper-slide">
+          <div class="top-text">
+            <p class="p-1">正在復興當中的海拉魯大地突然發生了新的問題。</p>
+            <p class="p-2">
+              那就是從地底冒出的「瘴氣」，讓各地到處接二連三的產生異變。
+            </p>
+
+            <p class="p-3">而瘴氣的來源，就在海拉魯城的地底。</p>
+            <p class="p-4">於是薩爾達公主，便帶著驅除了災厄的勇者林克，</p>
+            <p class="p-5">前往海拉魯城地底開始調查。</p>
+
+            <p class="p-6">
+              海拉魯遭遇了突如其來的天地異變，主角林克再次被捲入無盡的冒險之中。
+            </p>
+          </div>
+        </div>
       </div>
+      <div class="swiper-pagination"></div>
     </div>
     <!---------------------- main ---------------------->
     <div class="main">
@@ -215,6 +241,20 @@
         參考資料來源:https://www.nintendo.com.hk/switch/zelda_botw/discovery/index.html
       </p>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".swiper-container", {
+        direction: "vertical",
+        slidesPerView: 1,
+        spaceBetween: 30,
+        mousewheel: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
 
     <script src="./js/ham.js"></script>
   </body>
